@@ -128,8 +128,7 @@ footer {
         float: left;
         height: 100%;
         width: 750px;
-            padding-top: 30px;
-
+        padding-top: 30px;
         .svel {
             font-family: Akrobat;
             margin-bottom: 156px;
@@ -261,16 +260,14 @@ footer {
         position: absolute;
         background-image: url(../img/bg_sec1.jpg);
         background-position: -85px 0px;
-        height: 702px;
-        width: 782px;
+           width: 62%;
         z-index: -2;
         left: 0;
         top: 0;
     }
     .bg_right {
         position: absolute;
-        width: 482px;
-        height: 702px;
+            width: 38%;
         right: 0px;
         top: 0;
         z-index: -2;
@@ -280,6 +277,7 @@ footer {
 
 .sec2 {
     padding-top: 79px;
+    padding-bottom:50px;
     h2 {
         font-size: 39px;
         text-transform: uppercase;
@@ -472,7 +470,7 @@ footer {
         display: block;
         height: 51px;
         background-color: #0061fd;
-        margin: 0 auto;
+        margin: 40px auto 50px;
         color: white;
         font-family: Akrobat;
         font-size: 22px;
@@ -1046,6 +1044,7 @@ footer {
 
 .sec6 {
     padding-top: 42px;
+    margin-bottom: 30px;
     h3 {
         color: #2c2c2c;
         letter-spacing: 0px;
@@ -1123,7 +1122,7 @@ footer {
         .gleft {
             float: left;
             width: 320px;
-            height: 310px;
+            height: 330px;
             background-image: url(../img/kaska.png);
             background-position: -7px 18px;
             margin-left: 120px;
@@ -1206,7 +1205,7 @@ footer {
         .leftcontrol {
             float: left;
             width: 311px;
-            height: 311px;
+            height: 371px;
             margin-left: 120px;
             background-image: url(../img/control.png);
             background-position: -24px 6px;
@@ -1307,6 +1306,7 @@ footer {
 }
 
 .sec9 {
+        padding-bottom: 60px;
     .bg_sert {
         background: url(../img/bg_sert.jpg);
         background-repeat: no-repeat;
@@ -1329,32 +1329,41 @@ footer {
     }
     .tender1 {
         float: left;
-        width: 357px;
-        height: 440px;
-        background-image: url(../img/tender.png);
-        background-position: -55px -34px;
-        margin-left: 14px;
+        width: 375px;
+        height: 530px;
+        background-size: auto 100%;
+        margin-left: 25px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
+        background-image: url(../img/tender.jpg);
+        background-position: center;
     }
     .tender2 {
         float: left;
-        width: 357px;
-        height: 440px;
-        background-image: url(../img/tender.png);
-        background-position: -56px -34px;
-        margin-left: 53px;
+        width: 375px;
+        height: 530px;
+        background-image: url(../img/tender.jpg);
+        background-position: center;
+        background-size: auto 100%;
+        margin-left: 25px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
     }
     .tender3 {
         float: left;
-        width: 358px;
-        height: 440px;
-        background-image: url(../img/tender.png);
-        background-position: -54px -34px;
-        margin-left: 53px;
+        width: 375px;
+        height: 530px;
+        background-image: url(../img/tender.jpg);
+        background-position: center;
+        background-size: auto 100%;
+        margin-left: 25px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
     }
 }
 
 .sec10 {
-    padding-top: 84px;
+    padding-top: 25px;
     h3 {
         color: #2c2c2c;
         font-family: Akrobat;
@@ -1656,11 +1665,10 @@ footer {
                     &:before {}
                 }
             }
-            
         }
         .mouse {
-                &:after {}
-            }
+            &:after {}
+        }
         .right {
             padding-left: 52px;
             width: 410px;
@@ -1683,10 +1691,10 @@ footer {
             button.callback {}
         }
         .bg_left {
-            width: 587px;
+                      width: 62%;
         }
         .bg_right {
-            width: 397px;
+                    width:38%;
         }
     }
     .sec2 {
@@ -1954,6 +1962,7 @@ footer {
             }
             .rightdevice {
                 width: 340px;
+                height: 470px;
             }
         }
         .control {
@@ -1994,31 +2003,37 @@ footer {
             display: inline-block;
             margin: 0 auto;
             text-align: center;
-            background-size: 390px;
-            background-position: -55px -4px;
-            width: 286px;
-            height: 393px;
+            background-position: center;
+            background-size: auto 100%;
+            width: 278px;
+            height: 400px;
             float: none;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
         }
         .tender2 {
             display: inline-block;
-            background-size: 390px;
-            background-position: -55px -4px;
+            background-position: center;
+            background-size: auto 100%;
             margin: 0 15px;
             text-align: center;
             float: none;
-            width: 286px;
-            height: 393px;
+            width: 278px;
+            height: 400px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
         }
         .tender3 {
             display: inline-block;
-            background-size: 390px;
-            background-position: -55px -4px;
-            width: 286px;
-            height: 393px;
+            background-position: center;
+            background-size: auto 100%;
+            width: 278px;
+            height: 400px;
             float: none;
             margin: 0 auto;
             text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
         }
     }
     .sec10 {
@@ -2149,11 +2164,10 @@ footer {
                     &:before {}
                 }
             }
-            
         }
         .mouse {
-                &:after {}
-            }
+            &:after {}
+        }
         .right {
             padding-left: 0px;
             width: 283px;
@@ -2190,10 +2204,10 @@ footer {
             }
         }
         .bg_left {
-            width: 467px;
+                 width: 62%;
         }
         .bg_right {
-            width: 283px;
+                       width: 38%;
         }
     }
     .sec2 {
@@ -2295,6 +2309,7 @@ footer {
                 text-align: center;
                 p.txt8 {
                     padding-top: 279px;
+                    padding-left: 0;
                 }
             }
         }
@@ -2576,31 +2591,37 @@ footer {
             display: inline-block;
             margin: 0 auto;
             text-align: center;
-            background-size: 390px;
-            background-position: -55px -4px;
-            width: 286px;
+            background-position: center;
+            background-size: auto 100%;
+            width: 278px;
             height: 393px;
             float: none;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
         }
         .tender2 {
             display: inline-block;
-            background-size: 390px;
-            background-position: -55px -4px;
+            background-position: center;
+            background-size: auto 100%;
             margin: 0 15px;
             text-align: center;
             float: none;
-            width: 286px;
+            width: 278px;
             height: 393px;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
         }
         .tender3 {
             display: inline-block;
-            background-size: 390px;
-            width: 286px;
+            width: 278px;
             height: 369px;
-            background-position: -55px -27px;
+            background-position: center; 
+            background-size: auto 100%;
             float: none;
-            margin: 0 auto;
+            margin: 47px auto;
             text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
         }
     }
     .sec10 {
@@ -2725,63 +2746,64 @@ footer {
         max-width: 520px;
     }
     .sec1 {
+        &>div{
+            max-width: 100%;
+        }
         .left {
             width: 100%;
             height: initial;
+            background-image: url(../img/bg_sec1.jpg);
             .svel {
                 margin-bottom: 76px;
             }
             &:before {
-                    margin-left: 30px;
+                margin-left: 30px;
             }
             p.maintext {
                 font-size: 25px;
                 text-align: left;
-                    padding-left: 20px;
+                padding-left: 20px;
                 span {
                     font-size: 25px;
                 }
             }
             ul {
                 padding-left: 30px;
-    padding-bottom: 30px;
-
+                padding-bottom: 30px;
                 li {
                     font-size: 18px;
                     &:before {}
                 }
             }
-            
         }
         .mouse {
-                display: none;
-                &:after {}
-            }
+            display: none;
+            &:after {}
+        }
         .right {
             padding-left: 0px;
             text-align: center;
             width: 100%;
             .number {
                 background-position: 139px 8px;
-    margin-bottom: 50px;
-    margin: 40px auto;
-    text-align: center;
-    font-size: 26px;
+                margin-bottom: 50px;
+                margin: 40px auto;
+                text-align: center;
+                font-size: 26px;
             }
             p.frst {
                 font-size: 23px;
                 text-align: center;
                 &:after {
-                    right: -76px;
-                    top: 129px;
+                    display:none;
                 }
             }
             p.form {
-                  text-align: center;
-    font-size: 16px;
-    margin: 0 auto;
-    width: 100%;
-    float: none;
+                text-align: center;
+                font-size: 16px;
+                margin: 0 auto;
+                width: 100%;
+                float: none;
                 br {
                     display: none;
                 }
@@ -2810,13 +2832,12 @@ footer {
             font-size: 35px;
         }
         .clients {
-            width: 430px;
-            display: inline-block;
-            margin: 0 auto;
-            text-align: center;
-            height: 160px;
-            margin-left: 40px;
-            margin-bottom: 30px;
+                width: 430px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 160px;
+    margin-bottom: 30px;
             .cl1 {
                 width: 130px;
                 height: 70px;
@@ -2844,7 +2865,7 @@ footer {
             margin: 0 auto;
             .el1 {
                 width: 300px;
-                height: 330px;
+                    height: initial;
                 display: inline-block;
                 margin: 0px auto;
                 float: none;
@@ -2858,7 +2879,7 @@ footer {
             }
             .el2 {
                 width: 300px;
-                height: 330px;
+                    height: initial;
                 display: inline-block;
                 margin: 0px auto;
                 float: none;
@@ -2868,7 +2889,7 @@ footer {
             }
             .el3 {
                 width: 300px;
-                height: 330px;
+                    height: initial;
                 display: inline-block;
                 margin: 0px auto;
                 float: none;
@@ -2878,7 +2899,7 @@ footer {
             }
             .el4 {
                 width: 300px;
-                height: 330px;
+                    height: initial;
                 display: inline-block;
                 margin: 0px auto;
                 float: none;
@@ -2888,7 +2909,7 @@ footer {
             }
             .el5 {
                 width: 300px;
-                height: 330px;
+                    height: initial;
                 display: inline-block;
                 margin: 0px auto;
                 float: none;
@@ -2896,12 +2917,13 @@ footer {
                 clear: none;
                 background-position: 26px 18px;
                 p.txt5 {
-                    padding-top: 203px;
+                       padding-top: 203px;
+    padding-right: 0;
                 }
             }
             .el6 {
                 width: 300px;
-                height: 330px;
+                    height: initial;
                 display: inline-block;
                 margin: 0px auto;
                 float: none;
@@ -2913,7 +2935,7 @@ footer {
             }
             .el7 {
                 width: 300px;
-                height: 330px;
+                    height: initial;
                 display: inline-block;
                 margin: 0px auto;
                 float: none;
@@ -2922,13 +2944,14 @@ footer {
             }
             .el8 {
                 width: 300px;
-                height: 330px;
+                   height: initial;
                 display: inline-block;
                 margin: 0px auto;
                 float: none;
                 text-align: left;
+               background-position: 0px 70px;
                 p.txt8 {
-                    padding-top: 279px;
+                        padding-top: 253px;
                 }
             }
         }
@@ -3113,6 +3136,7 @@ footer {
             input {
                 width: 212px;
                 height: 51px;
+                    margin: 0px 20px 10px;
             }
             button.callback {
                 width: 252px;
@@ -3136,10 +3160,10 @@ footer {
             float: none;
             .gleft {
                 margin-left: 0px;
+                background-size: auto 100%;
                 background-position: center;
-                background-size: 260px;
                 width: 100%;
-                height: 300px;
+                    height: 210px;
             }
             .gright {
                 width: 100%;
@@ -3181,14 +3205,15 @@ footer {
                 }
             }
             .rightdevice {
-                width: 279px;
+                width: 239px;
                 margin-top: 0;
                 margin: 0 auto;
                 text-align: center;
                 float: none;
                 display: inline-block;
-                background-position: 37px 16px;
-                height: 300px;
+                background-size: auto 100%;
+                background-position: center 6px;
+    height: 288px;
             }
         }
         .control {
@@ -3199,13 +3224,13 @@ footer {
             margin: 0 auto;
             float: none;
             .leftcontrol {
-                background-size: 250px;
-                width: 251px;
-                height: 251px;
+                    width: 211px;
+    height: 301px;
                 display: inline-block;
                 float: none;
                 margin-left: 0;
-                background-position: -24px 22px;
+                background-size: 100% auto;
+                   background-position: center 70px;
             }
             .rightcontrol {
                 width: 470px;
@@ -3252,38 +3277,39 @@ footer {
     .sec9 {
         margin: 0 auto;
         text-align: center;
+        padding-bottom: 60px;
         .bg_sert {}
         h3 {
             font-size: 35px;
         }
         .tender1 {
             display: inline-block;
-            margin: 0 auto;
+            margin: 10px auto;
             text-align: center;
-            background-size: 390px;
-            background-position: -55px -4px;
-            width: 286px;
+            background-position: center;
+            background-size: auto 100%;
+            width: 277px;
             height: 393px;
             float: none;
         }
         .tender2 {
             display: inline-block;
-            background-size: 390px;
-            background-position: -55px -4px;
-            margin: 0 15px;
+            background-position: center;
+            background-size: auto 100%;
+            margin: 20px 15px 0px;
             text-align: center;
             float: none;
-            width: 286px;
+            width: 277px;
             height: 393px;
         }
         .tender3 {
             display: inline-block;
-            background-size: 390px;
-            width: 286px;
+            width: 277px;
             height: 369px;
-            background-position: -55px -27px;
+            background-position: center;
+            background-size: auto 100%;
             float: none;
-            margin: 0 auto;
+            margin: 25 auto;
             text-align: center;
         }
     }
@@ -3308,6 +3334,7 @@ footer {
                 font-size: 20px;
                 padding-bottom: 4px;
                 line-height: 23px;
+                    text-align: center;
             }
             p.inf4 {
                 padding-bottom: 23px;
@@ -3416,6 +3443,7 @@ footer {
         }
     }
 }
+
 @media only screen and (max-width:520px) {
     .section > div,
     .head > div,
@@ -3433,42 +3461,41 @@ footer {
                 margin-bottom: 76px;
             }
             &:before {
-                    margin-left: 30px;
+                margin-left: 30px;
             }
             p.maintext {
                 font-size: 25px;
                 text-align: left;
-                   padding-left: 50px;
-    line-height: 37px;
+                padding-left: 50px;
+                line-height: 37px;
                 span {
                     font-size: 25px;
                 }
             }
             ul {
-                    padding-left: 50px;;
-    padding-bottom: 30px;
-
+                padding-left: 50px;
+                ;
+                padding-bottom: 30px;
                 li {
                     font-size: 14px;
                     &:before {}
                 }
             }
-           
         }
-         .mouse {
-                display: none;
-                &:after {}
-            }
+        .mouse {
+            display: none;
+            &:after {}
+        }
         .right {
             padding-left: 0px;
             text-align: center;
             width: 100%;
             .number {
                 background-position: 40px 8px;
-    margin-bottom: 50px;
-    margin: 40px auto;
-    text-align: center;
-    font-size: 26px;
+                margin-bottom: 50px;
+                margin: 40px auto;
+                text-align: center;
+                font-size: 26px;
             }
             p.frst {
                 font-size: 23px;
@@ -3479,11 +3506,11 @@ footer {
                 }
             }
             p.form {
-                  text-align: center;
-    font-size: 16px;
-    margin: 0 auto;
-    width: 100%;
-    float: none;
+                text-align: center;
+                font-size: 16px;
+                margin: 0 auto;
+                width: 100%;
+                float: none;
                 br {
                     display: none;
                 }
@@ -3501,7 +3528,7 @@ footer {
             }
         }
         .bg_left {
-           display: none;   
+            display: none;
         }
         .bg_right {
             display: none;
@@ -3509,31 +3536,31 @@ footer {
     }
     .sec2 {
         h2 {
-            font-size: 25px; 
+            font-size: 25px;
         }
         .clients {
-                   width: 250px;
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
-    float: none;
-    display: block;
-    margin-bottom: 30px;
+            width: 250px;
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+            float: none;
+            display: block;
+            margin-bottom: 30px;
             .cl1 {
-                    width: 100%;
-    background-position: center;
+                width: 100%;
+                background-position: center;
             }
             .cl2 {
-                    width: 100%;
-    background-position: center;
+                width: 100%;
+                background-position: center;
             }
             .cl3 {
-                    width: 100%;
-    background-position: center;
+                width: 100%;
+                background-position: center;
             }
             .cl4 {
-                  width: 100%;
-    background-position: center;
+                width: 100%;
+                background-position: center;
             }
         }
     }
@@ -3542,8 +3569,8 @@ footer {
             text-align: center;
             margin: 0 auto;
             .el1 {
-                    margin: 10px auto;
-    height: initial;
+                margin: 10px auto;
+                height: initial;
                 p.ocompany {
                     font-size: 35px;
                 }
@@ -3552,96 +3579,105 @@ footer {
                 }
             }
             .el2 {
-                    display: block;
-    margin: 0 auto;
-    height: initial;
+                display: block;
+                margin: 0 auto;
+                height: initial;
+                background-position: 50px 5px;
                 p.txt2 {
-                        text-align: center;
-                            padding-right: 0;
-    padding-left: 0;
+                    text-align: center;
+                    padding-right: 0;
+                    padding-left: 0;
                 }
             }
             .el3 {
-                    display: block;
-    margin: 0 auto;
-    height: initial;
+                display: block;
+                margin: 0 auto;
+                height: initial;
+                background-position: 27px 19px;
                 p.txt3 {
-                        text-align: center;
-                            padding-right: 0;
-    padding-left: 0;
+                    text-align: center;
+                    padding-right: 0;
+                    padding-left: 0;
                 }
             }
             .el4 {
-                    display: block;
-    margin: 0 auto;
-    height: initial;
+                display: block;
+                margin: 0 auto;
+                height: initial;
                 p.txt4 {
-                        text-align: center;
-                            padding-right: 0;
-    padding-left: 0;
+                    text-align: center;
+                    padding-right: 0;
+                    padding-left: 0;
                 }
             }
             .el5 {
-                   display: block;
-    margin: 0 auto;
-    height: initial;
+                display: block;
+                margin: 0 auto;
+                height: initial;
+                    background-position: 47px 18px;
                 p.txt5 {
-                        text-align: center;
-                            padding-right: 0;
-    padding-left: 0;
+                    text-align: center;
+                    padding-right: 0;
+                    padding-left: 0;
                 }
             }
             .el6 {
-                    display: block;
-    margin: 0 auto;
-    height: initial;
+                display: block;
+                margin: 0 auto;
+                height: initial;
+                background-position: 7px 8px;
                 p.txt6 {
-                        text-align: center;
-                            padding-right: 0;
-    padding-left: 0;
+                    text-align: center;
+                    padding-right: 0;
+                    padding-left: 0;
                 }
             }
             .el7 {
-                        display: block;
-    margin: 0 auto;
-    height: initial;
-    background-position: center 10px;
-                p.txt7 {    text-align: center;
-                        padding-right: 0;
-    padding-left: 0;}
+                display: block;
+                margin: 0 auto;
+                height: initial;
+                background-position: center 10px;
+                p.txt7 {
+                    text-align: center;
+                    padding-right: 0;
+                    padding-left: 0;
+                        padding-top: 235px;
+                }
             }
             .el8 {
-                   display: block;
-    margin: 0 auto;
-    height: initial;
+                display: block;
+                margin: 0 auto;
+                height: initial;
+                    background-position: 0px 35px;
                 p.txt8 {
-                        text-align: center;
-                            padding-right: 0;
-    padding-left: 0;
+                    text-align: center;
+                    padding-right: 0;
+                    padding-left: 0;
+                    padding-top:205px;
                 }
             }
         }
         button.start {
             display: block;
-    margin: 0 auto 20px;
+            margin: 25px auto 50px;
         }
     }
     .sec4 {
         .yslygi {
             text-align: center;
             .bl1 {
-                    display: block;
-    width: 100%;
-    margin: 10px auto;
-    text-align: left;
+                display: block;
+                width: 100%;
+                margin: 10px auto;
+                text-align: left;
                 p.ys1 {}
                 p.stxt1 {}
             }
             .bl2 {
                 display: block;
-    width: 100%;
-    margin: 10px auto;
-    float:none;
+                width: 100%;
+                margin: 10px auto;
+                float: none;
                 p.ys2 {}
                 p.price2 {
                     span.sub {}
@@ -3650,20 +3686,20 @@ footer {
                 button.zakaz {}
             }
             .bl3 {
-                 display: block;
-    width: 100%;
-    margin: 10px auto;
-    float:none;
+                display: block;
+                width: 100%;
+                margin: 10px auto;
+                float: none;
                 p.ys3 {}
                 p.stxt3 {}
                 button.zakaz {}
             }
             .bl4 {
-                 display: block;
-    width: 100%;
-    margin: 10px auto;
-    float:none;
-    clear:none;
+                display: block;
+                width: 100%;
+                margin: 10px auto;
+                float: none;
+                clear: none;
                 p.ys4 {}
                 p.price4 {
                     span.sub {}
@@ -3673,10 +3709,10 @@ footer {
             }
             .bl5 {
                 display: block;
-    width: 100%;
-    margin: 10px auto;
-    float:none;
-    clear:none;
+                width: 100%;
+                margin: 10px auto;
+                float: none;
+                clear: none;
                 p.ys5 {}
                 p.price5 {
                     span.sub {}
@@ -3685,11 +3721,11 @@ footer {
                 button.zakaz {}
             }
             .bl6 {
-               display: block;
-    width: 100%;
-    margin: 10px auto;
-    float:none;
-    clear:none;
+                display: block;
+                width: 100%;
+                margin: 10px auto;
+                float: none;
+                clear: none;
                 p.ys6 {}
                 p.price6 {
                     span.sub {}
@@ -3699,10 +3735,10 @@ footer {
             }
             .bl7 {
                 display: block;
-    width: 100%;
-    margin: 10px auto;
-    float:none;
-    clear:none;
+                width: 100%;
+                margin: 10px auto;
+                float: none;
+                clear: none;
                 p.ys7 {}
                 p.price7 {
                     span.sub {}
@@ -3712,10 +3748,10 @@ footer {
             }
             .bl8 {
                 display: block;
-    width: 100%;
-    margin: 10px auto;
-    float:none;
-    clear:none;
+                width: 100%;
+                margin: 10px auto;
+                float: none;
+                clear: none;
                 p.ys8 {}
                 p.price8 {
                     span.sub {}
@@ -3725,10 +3761,10 @@ footer {
             }
             .bl9 {
                 display: block;
-    width: 100%;
-    margin: 10 auto;
-    float:none;
-    clear:none;
+                width: 100%;
+                margin: 10 auto;
+                float: none;
+                clear: none;
                 p.ys9 {}
                 p.stxt9 {}
             }
@@ -3738,35 +3774,35 @@ footer {
         text-align: center;
         h3 {}
         .left {
-                float: none;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-        width: 100%;
+            float: none;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
             .ico1 {
-                    background-size: auto;
-    width: 100%;
-    float: none;
-    margin: 10px auto;
+                background-size: auto;
+                width: 100%;
+                float: none;
+                margin: 10px auto;
             }
             .ico2 {
-                    background-size: auto;
-    width: 100%;
-    float: none;
-    margin: 10px auto;
+                background-size: auto;
+                width: 100%;
+                float: none;
+                margin: 10px auto;
                 .search {}
             }
             .ico3 {
-                    background-size: auto;
-    width: 100%;
-    float: none;
-    margin: 10px auto;
+                background-size: auto;
+                width: 100%;
+                float: none;
+                margin: 10px auto;
             }
             .ico4 {
-                    background-size: auto;
-    width: 100%;
-    float: none;
-    margin: 10px auto;
+                background-size: auto;
+                width: 100%;
+                float: none;
+                margin: 10px auto;
             }
         }
         .right {
@@ -3776,8 +3812,7 @@ footer {
             vertical-align: top;
             padding-top: 0;
             text-align: left;
-                 margin: 0 auto;
-    padding: 20px;
+            margin: 0 auto;
             .zakazchik {
                 font-size: 17px;
                 padding-bottom: 10px;
@@ -3787,10 +3822,12 @@ footer {
             }
             .mesto {
                 font-size: 17px;
-                width: 390px;
+                width: initial;
                 padding-bottom: 13px;
                 span.mest {
                     font-size: 14px;
+                    width: initial;
+    display: inline;
                 }
             }
             .obemm {
@@ -3802,7 +3839,8 @@ footer {
             }
             .zadacha {
                 font-size: 17px;
-                    width: 262px;
+                   width: initial;
+    display: inline;
                 span.quest {
                     font-size: 14px;
                 }
@@ -3823,16 +3861,16 @@ footer {
             display: block;
             text-align: center;
             input {
-                width: 212px;
-                height: 51px;
-                    margin: 10px auto;
+                width: 252px;
+    height: 51px;
+    margin: 10px auto;
             }
             button.callback {
                 width: 252px;
                 height: 59px;
                 line-height: 59px;
                 margin-left: 0;
-                margin: 10px auto;
+                    margin: 10px auto 50px;
                 text-align: center;
             }
         }
@@ -3840,13 +3878,13 @@ footer {
     .sec7 {
         h3 {}
         p.garant {
-    letter-spacing: -0.7px;
-        font-size: 14px;
-
+            letter-spacing: -0.7px;
+            font-size: 14px;
         }
         .garantija {
-            margin-top: 0px;
+            max-width: 100%;
             height: initial;
+            margin-top: 50px;
             text-align: center;
             display: inline-block;
             margin: 0 auto;
@@ -3854,7 +3892,7 @@ footer {
             .gleft {
                 margin-left: 0px;
                 background-position: center;
-                    background-size: 200px;
+                background-size: 200px;
                 width: 100%;
                 height: 300px;
             }
@@ -3862,24 +3900,25 @@ footer {
                 width: 100%;
                 margin-top: 0;
                 text-align: left;
-                    padding-left: 15px;
+                padding-left: 15px;
                 p.exp {
-                            font-size: 23px;
-    padding-left: 15px;
+                    font-size: 23px;
+                    padding-left: 15px;
                 }
                 .line1 {
-                        margin-left: 15px;
+                    margin-left: 15px;
                 }
                 p.inf1 {
-                        font-size: 14px;
-        max-width: 270px;
-    padding-left: 15px;
+                    font-size: 14px;
+                    max-width: 270px;
+                    padding-left: 15px;
                 }
             }
         }
         .device {
-            margin-top: 0px;
-            height: 310px;
+            max-width: 100%;
+            height: initial;
+            margin-top: 50px;
             text-align: center;
             display: inline-block;
             margin: 0 auto;
@@ -3894,46 +3933,47 @@ footer {
                 padding-left: 0;
                 margin-bottom: 20px;
                 p.pokrutie {
-                            font-size: 23px;
-    padding-left: 15px;
+                    font-size: 23px;
+                    padding-left: 15px;
                 }
                 .line2 {
-                        margin-left: 15px;
+                    margin-left: 15px;
                 }
                 .inf2 {
-                       font-size: 14px;
-        max-width: 270px;
-    padding-left: 15px;
+                    font-size: 14px;
+                    max-width: 270px;
+                    padding-left: 15px;
                 }
             }
             .rightdevice {
-                    width: 279px;
-    margin-top: 0;
-    margin: 0 auto;
-    text-align: center;
-    float: none;
-    display: inline-block;
-    background-position: center;
-    height: 300px;
+                width: 279px;
+                margin-top: 0;
+                margin: 0 auto;
+                text-align: center;
+                float: none;
+                display: inline-block;
+                    background-position: center 41px;
+    height: 310px;
     background-size: 170px;
             }
         }
         .control {
-            margin-top: 0px;
-            height: 310px;
+            max-width: 100%;
+            height: initial;
+            margin-top: 50px;
             text-align: center;
             display: inline-block;
             margin: 0 auto;
             float: none;
             .leftcontrol {
-                        background-size: 200px;
-    width: 251px;
-    height: 251px;
-    display: block;
-    float: none;
-    background-position: center;
-    margin: 0 auto;
-    margin-left: 0;
+                background-size: auto 100%;
+                width: 251px;
+                height: 240px;
+                display: block;
+                float: none;
+                background-position: center;
+                margin: 0 auto;
+                margin-left: 0;
             }
             .rightcontrol {
                 width: 470px;
@@ -3944,16 +3984,16 @@ footer {
                 margin-left: 0px;
                 height: 199px;
                 p.kachestvo {
-                            font-size: 23px;
-        padding-left: 30px;
+                    font-size: 23px;
+                    padding-left: 30px;
                 }
                 .line3 {
-                           margin-left: 30px;
+                    margin-left: 30px;
                 }
                 p.inf3 {
-                            font-size: 14px;
-        max-width: 270px;
-        padding-left: 30px;
+                    font-size: 14px;
+                    max-width: 270px;
+                    padding-left: 30px;
                 }
             }
         }
@@ -3975,7 +4015,7 @@ footer {
             }
             button.callback {
                 text-align: center;
-                margin: 0px auto;
+                    margin: 10px auto 50px;
                 width: 262px;
                 height: 59px;
                 line-height: 59px;
@@ -3993,28 +4033,28 @@ footer {
             display: inline-block;
             margin: 0 auto;
             text-align: center;
-            background-size: 390px;
-            background-position: -55px -4px;
-            width: 286px;
+            background-position: center;
+            background-size: auto 100%;
+            width: 278px;
             height: 393px;
             float: none;
         }
         .tender2 {
             display: inline-block;
-            background-size: 390px;
-            background-position: -55px -4px;
-            margin: 0 15px;
+            background-position: center;
+            background-size: auto 100%;
+            margin: 30px 15px;
             text-align: center;
             float: none;
-            width: 286px;
+            width: 278px;
             height: 393px;
         }
         .tender3 {
             display: inline-block;
-            background-size: 390px;
-            width: 286px;
+            background-position: center;
+            background-size: auto 100%;
+            width: 278px;
             height: 369px;
-            background-position: -55px -27px;
             float: none;
             margin: 0 auto;
             text-align: center;
@@ -4024,8 +4064,8 @@ footer {
         h3 {}
         .otzleft {
             margin-top: 0px;
-                background-size: 260px;
             background-position: center;
+            background-size: auto 100%;
             width: 300px;
             height: 275px;
             margin: 0 auto;
@@ -4035,28 +4075,28 @@ footer {
             margin-bottom: 20px;
         }
         .otzright {
-                width: 100%;
-    height: initial;
-    margin: 0 auto;
-    display: block;
-    float: none;
+            width: 100%;
+            height: initial;
+            margin: 0 auto;
+            display: block;
+            float: none;
             p.gazprom {
-                    font-size: 20px;
-    padding-bottom: 4px;
-    line-height: 23px;
-    text-align: center;
+                font-size: 20px;
+                padding-bottom: 4px;
+                line-height: 23px;
+                text-align: center;
             }
             p.inf4 {
-                   padding-bottom: 23px;
-    font-size: 14px;
-    text-align: left;
-    padding-left: 20px;
+                padding-bottom: 23px;
+                font-size: 14px;
+                text-align: left;
+                padding-left: 20px;
                 br {
                     display: none;
                 }
             }
             p.nameing {
-                    text-align: center;
+                text-align: center;
             }
         }
         .slidcontrol {
@@ -4109,7 +4149,7 @@ footer {
                 background-position: top center;
                 margin-left: 0;
                 float: none;
-                margin: 0 auto;
+                margin: 0 auto; 
                 p.stp3 {
                     font-size: 17px;
                 }
@@ -4119,8 +4159,7 @@ footer {
     .sec12 {
         .map {}
         .adress {
-                margin-left: -138px;
-
+            margin-left: -138px;
             .phone {
                 p.ph {}
                 p.nmr {}
@@ -4132,8 +4171,8 @@ footer {
     .sec13 {
         h3 {
             padding-bottom: 32px;
-    font-size: 19px;
-    line-height: 29px;
+            font-size: 19px;
+            line-height: 29px;
         }
         p.zajavka {}
         form.questfrom {
@@ -4151,7 +4190,7 @@ footer {
                 height: 59px;
                 line-height: 59px;
                 float: none;
-                margin: 0 auto;
+                margin:10px auto;
             }
         }
     }
