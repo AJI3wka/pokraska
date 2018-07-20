@@ -1,0 +1,86 @@
+{
+  "viewports": [
+    {
+      "name": "mobile_viewport_iphone_5_320x570",
+      "width": 335,
+      "height": 570
+    },
+    {
+      "name": "mobile_viewport_iphone_6_480x850",
+      "width": 495,
+      "height": 850
+    },
+    {
+      "name": "mobile_viewport_table_v_768x1024",
+      "width": 783,
+      "height": 1024
+    },
+    {
+      "name": "mobile_viewport_table_h_1024x768",
+      "width": 1039,
+      "height": 768
+    },
+    {
+      "name": "desktop_viewport_desktop_1280x860(1280x1024)",
+      "width": 1280,
+      "height": 860
+    },
+    {
+      "name": "desktop_viewport_desktop_1366x600(1366x768)",
+      "width": 1366,
+      "height": 600
+    },
+    {
+      "name": "desktop_viewport_desktop_1920x900(1920x1080)",
+      "width": 1920,
+      "height": 900
+    },
+    {
+      "name": "desktop_viewport_desktop_2560x1280(2560x1100)",
+      "width": 2560,
+      "height": 1100
+    },
+    {
+      "name": "desktop_maket_desktop_1920x1200(1920x1110)",
+      "width": 1920,
+      "height": 1100
+    },
+    {
+      "name": "maket_desktop_1920x1100",
+      "width": 1920,
+      "height": 1100
+    },
+    {
+      "name": "maket_mobile_480x800",
+      "width": 495,
+      "height": 800
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "all_version",
+      "url": "http://localhost/GITHUB/shtory/src/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "body"
+      ],
+      "readyEvent": null,
+      "delay": 5000,
+      "misMatchThreshold" : 0.1,
+      "onBeforeScript": "change_user_agent_tablet_mobile.js",
+      "onReadyScript": "viewport_scale_mobile_tablet.js"
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "../../backstop_data/bitmaps_reference",
+    "bitmaps_test": "../../backstop_data/bitmaps_test",
+    "compare_data": "../../backstop_data/bitmaps_test/compare.json",
+    "casper_scripts": "../../backstop_data/casper_scripts"
+  },
+  "engine": "slimerjs",
+  "report": ["CLI", "browser"],
+  "casperFlags": [],
+  "debug": false,
+  "port": 3001
+}

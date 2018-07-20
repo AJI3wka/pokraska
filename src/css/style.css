@@ -1,0 +1,3035 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+:after,
+:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both; }
+
+sup:after,
+sup:before,
+a:after,
+a:before,
+br:after,
+br:before,
+img:after,
+img:before,
+span:after,
+span:before,
+table:after,
+table:before,
+td:after,
+td:before,
+tr:after,
+tr:before {
+  content: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 1em;
+  font-weight: inherit;
+  text-align: center;
+  font-family: "Akrobat,MuseoSansCyrl";
+  font-weight: 300;
+  letter-spacing: 0.01em; }
+
+body {
+  font-family: "Akrobat,MuseoSansCyrl", sans-serif;
+  font-weight: 400;
+  color: #141414; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0 !important; }
+
+button,
+input,
+textarea {
+  outline: none; }
+
+section,
+header,
+footer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background-size: cover !important; }
+  section > div,
+  header > div,
+  footer > div {
+    max-width: 1200px;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    margin: 0 auto; }
+
+.sec1 .mouse {
+  width: 33px;
+  height: 50px;
+  border-radius: 17px;
+  border: 1px solid white;
+  float: right;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transition: all 0.25s; }
+  .sec1 .mouse:hover {
+    bottom: 24px; }
+  .sec1 .mouse:after {
+    height: 11px;
+    width: 1px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px; }
+
+.sec1 .left {
+  float: left;
+  height: 100%;
+  width: 750px;
+  padding-top: 30px; }
+  .sec1 .left .svel {
+    font-family: Akrobat;
+    margin-bottom: 156px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top; }
+  .sec1 .left:before {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: white;
+    opacity: 0.5;
+    margin-left: 10px;
+    margin-right: 9px;
+    cursor: pointer; }
+  .sec1 .left p.maintext {
+    font-size: 40px;
+    margin-bottom: 18px;
+    color: white;
+    font-family: Akrobat;
+    font-weight: 900;
+    padding-left: 9px;
+    line-height: 60px;
+    text-transform: uppercase; }
+    .sec1 .left p.maintext span {
+      font-weight: 700;
+      font-size: 40px;
+      text-transform: uppercase; }
+  .sec1 .left ul {
+    padding-left: 11px;
+    text-align: left; }
+    .sec1 .left ul li {
+      color: white;
+      font-size: 21px;
+      font-family: MuseoSansCyrl;
+      line-height: 38px;
+      list-style-type: none; }
+      .sec1 .left ul li:before {
+        background-color: #0061fd;
+        box-shadow: 0 2px 9px rgba(13, 86, 201, 0.49);
+        width: 5px;
+        height: 5px;
+        display: inline-block;
+        border-radius: 100%;
+        vertical-align: middle;
+        margin-right: 14px; }
+
+.sec1 .right {
+  float: right;
+  width: 450px;
+  height: 100%;
+  text-align: center; }
+  .sec1 .right .number {
+    margin-top: 31px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 22px;
+    font-family: Akrobat;
+    color: #2c2c2c;
+    background-image: url(../img/phone.png);
+    background-position: 262px 5px;
+    margin-bottom: 120px; }
+  .sec1 .right p.frst {
+    color: #2c2c2c;
+    font-size: 30px;
+    font-family: akrobat;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+    .sec1 .right p.frst:after {
+      position: absolute;
+      width: 232px;
+      height: 112px;
+      background-image: url(../img/repeat.png);
+      background-position: 1px 1px;
+      right: -44px;
+      top: 131px;
+      z-index: -1; }
+  .sec1 .right p.form {
+    font-size: 16px;
+    color: #2c2c2c;
+    line-height: 22px;
+    font-family: MuseoSansCyrl; }
+  .sec1 .right input {
+    display: block;
+    width: 221px;
+    height: 51px;
+    border: 1px solid #2c2c2c;
+    opacity: 0.3;
+    margin-top: 34px;
+    padding-left: 19px;
+    margin: 34px auto 0px; }
+    .sec1 .right input:last-of-type {
+      margin-top: 10px; }
+  .sec1 .right button.callback {
+    width: 272px;
+    height: 69px;
+    background-color: #0061fd;
+    border: none;
+    margin-top: 20px;
+    font-family: Akrobat;
+    font-size: 27px;
+    line-height: 69px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    margin: 10px auto; }
+
+.sec1 .bg_left {
+  position: absolute;
+  background-image: url(../img/bg_sec1.jpg);
+  background-position: -85px 0px;
+  height: 702px;
+  width: 782px;
+  z-index: -2;
+  left: 0;
+  top: 0; }
+
+.sec1 .bg_right {
+  position: absolute;
+  width: 482px;
+  height: 702px;
+  right: 0px;
+  top: 0;
+  z-index: -2;
+  background-color: #f8f8f8; }
+
+.sec2 {
+  padding-top: 79px; }
+  .sec2 h2 {
+    font-size: 39px;
+    text-transform: uppercase;
+    font-family: Akrobat;
+    font-weight: 800;
+    color: #2c2c2c;
+    margin-bottom: 38px; }
+  .sec2 .clients {
+    width: 780px;
+    height: 87px;
+    margin: 0 auto;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5); }
+    .sec2 .clients .cl1 {
+      width: 100px;
+      height: 100%;
+      display: inline-block;
+      background-image: url(../img/cl_1.png);
+      background-position: 0px 28px; }
+    .sec2 .clients .cl2 {
+      width: 200px;
+      height: 100%;
+      display: inline-block;
+      background-image: url(../img/cl_2.png);
+      background-position: 61px 29px; }
+    .sec2 .clients .cl3 {
+      width: 200px;
+      height: 100%;
+      display: inline-block;
+      background-image: url(../img/cl_3.png);
+      background-position: 46px 37px; }
+    .sec2 .clients .cl4 {
+      width: 200px;
+      height: 100%;
+      display: inline-block;
+      background-image: url(../img/cl_4.png);
+      background-position: 40px 25px; }
+
+.sec3 {
+  background-color: #f8f8f8; }
+  .sec3 .aboutcompany {
+    padding-top: 52px;
+    margin-bottom: 56px; }
+    .sec3 .aboutcompany .el1 {
+      width: 248px;
+      float: left;
+      padding-top: 45px; }
+      .sec3 .aboutcompany .el1 p.ocompany {
+        color: #353535;
+        font-family: Akrobat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+        padding-left: 8px;
+        margin-bottom: 2px; }
+      .sec3 .aboutcompany .el1 p.txt1 {
+        color: #353535;
+        font-size: 16px;
+        line-height: 25px;
+        padding-left: 10px; }
+    .sec3 .aboutcompany .el2 {
+      width: 248px;
+      float: left;
+      margin-left: 100px;
+      background-image: url(../img/el1.jpg);
+      background-position: 30px -1px;
+      margin-top: 13px; }
+      .sec3 .aboutcompany .el2 p.txt2 {
+        padding-top: 190px;
+        text-align: center;
+        color: #353535;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        font-family: Akrobat; }
+    .sec3 .aboutcompany .el3 {
+      width: 248px;
+      float: left;
+      background-image: url(../img/el2.jpg);
+      background-position: 7px 5px;
+      margin-left: 67px;
+      margin-top: 13px; }
+      .sec3 .aboutcompany .el3 p.txt3 {
+        padding-top: 193px;
+        text-align: center;
+        color: #353535;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        font-family: Akrobat; }
+    .sec3 .aboutcompany .el4 {
+      width: 218px;
+      float: left;
+      margin-left: 67px;
+      background-image: url(../img/el3.jpg);
+      background-position: 27px 4px; }
+      .sec3 .aboutcompany .el4 p.txt4 {
+        font-size: 19px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: Akrobat;
+        line-height: 25px;
+        padding-top: 192px; }
+    .sec3 .aboutcompany .el5 {
+      width: 262px;
+      float: left;
+      clear: both;
+      background-image: url(../img/el4.jpg);
+      background-position: 6px 75px; }
+      .sec3 .aboutcompany .el5 p.txt5 {
+        font-size: 18px;
+        text-transform: uppercase;
+        line-height: 25px;
+        padding-top: 261px;
+        font-family: Akrobat;
+        padding-right: 50px;
+        text-align: center; }
+    .sec3 .aboutcompany .el6 {
+      width: 278px;
+      float: left;
+      margin-left: 70px;
+      background-image: url(../img/el5.jpg);
+      background-position: 7px 60px; }
+      .sec3 .aboutcompany .el6 p.txt6 {
+        color: #353535;
+        font-family: Akrobat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        text-transform: uppercase;
+        padding-top: 267px;
+        text-align: center; }
+    .sec3 .aboutcompany .el7 {
+      margin-left: 40px;
+      width: 274px;
+      float: left;
+      background-image: url(../img/el6.jpg);
+      background-position: 57px 59px; }
+      .sec3 .aboutcompany .el7 p.txt7 {
+        color: #353535;
+        font-family: Akrobat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 279px; }
+    .sec3 .aboutcompany .el8 {
+      width: 268px;
+      float: left;
+      background-image: url(../img/el7.jpg);
+      background-position: 20px 90px; }
+      .sec3 .aboutcompany .el8 p.txt8 {
+        color: #353535;
+        font-family: Akrobat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 275px;
+        padding-left: 54px; }
+  .sec3 button.start {
+    width: 253px;
+    display: block;
+    height: 51px;
+    background-color: #0061fd;
+    margin: 0 auto;
+    color: white;
+    font-family: Akrobat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 51px;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 59px; }
+
+.sec4 {
+  background-color: #5898ff; }
+  .sec4 .yslygi {
+    padding-top: 52px;
+    margin-bottom: 40px; }
+    .sec4 .yslygi .bl1 {
+      width: 409px;
+      height: 271px;
+      float: left;
+      padding-left: 50px;
+      padding-top: 66px; }
+      .sec4 .yslygi .bl1 p.ys1 {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: Akrobat;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 8px; }
+      .sec4 .yslygi .bl1 p.stxt1 {
+        color: white;
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px; }
+    .sec4 .yslygi .bl2 {
+      width: 360px;
+      height: 271px;
+      background-color: white;
+      float: left;
+      text-align: center;
+      padding-top: 22px;
+      margin-left: 11px;
+      margin-right: 10px;
+      padding-left: 3px; }
+      .sec4 .yslygi .bl2 p.ys2 {
+        color: #2c2c2c;
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 33px;
+        text-transform: uppercase; }
+      .sec4 .yslygi .bl2 p.price2 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0061fd;
+        padding-top: 10px; }
+        .sec4 .yslygi .bl2 p.price2 span.sub {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 10px;
+          position: relative;
+          top: -2px; }
+      .sec4 .yslygi .bl2 p.stxt2 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #2c2c2c; }
+      .sec4 .yslygi .bl2 button.zakaz {
+        width: 184px;
+        height: 51px;
+        background-color: #0061fd;
+        color: white;
+        font-family: Akrobat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 51px;
+        text-transform: uppercase;
+        border: none;
+        margin: 18px auto 0; }
+    .sec4 .yslygi .bl3 {
+      width: 360px;
+      height: 271px;
+      background-color: white;
+      float: left;
+      text-align: center;
+      padding-top: 22px; }
+      .sec4 .yslygi .bl3 p.ys3 {
+        color: #2c2c2c;
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 33px;
+        text-transform: uppercase; }
+      .sec4 .yslygi .bl3 p.stxt3 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #2c2c2c;
+        padding-top: 23px; }
+      .sec4 .yslygi .bl3 button.zakaz {
+        width: 184px;
+        height: 51px;
+        background-color: #0061fd;
+        color: white;
+        font-family: Akrobat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 51px;
+        text-transform: uppercase;
+        border: none;
+        margin: 30px auto 0; }
+    .sec4 .yslygi .bl4 {
+      width: 360px;
+      height: 271px;
+      background-color: white;
+      float: left;
+      clear: both;
+      text-align: center;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-left: 50px;
+      padding-top: 22px; }
+      .sec4 .yslygi .bl4 p.ys4 {
+        color: #2c2c2c;
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 33px;
+        text-transform: uppercase;
+        margin-bottom: 14px; }
+      .sec4 .yslygi .bl4 p.price4 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0061fd; }
+        .sec4 .yslygi .bl4 p.price4 span.sub {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 10px;
+          position: relative;
+          top: -2px; }
+      .sec4 .yslygi .bl4 p.stxt4 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #2c2c2c; }
+      .sec4 .yslygi .bl4 button.zakaz {
+        width: 184px;
+        height: 51px;
+        background-color: #0061fd;
+        color: white;
+        font-family: Akrobat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 51px;
+        text-transform: uppercase;
+        border: none;
+        margin: 22px auto 0; }
+    .sec4 .yslygi .bl5 {
+      width: 360px;
+      height: 271px;
+      background-color: white;
+      text-align: center;
+      float: left;
+      margin-top: 10px;
+      margin-right: 10px;
+      padding-top: 22px; }
+      .sec4 .yslygi .bl5 p.ys5 {
+        color: #2c2c2c;
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 33px;
+        text-transform: uppercase; }
+      .sec4 .yslygi .bl5 p.price5 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0061fd;
+        padding-top: 27px; }
+        .sec4 .yslygi .bl5 p.price5 span.sub {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 10px;
+          position: relative;
+          top: -2px; }
+      .sec4 .yslygi .bl5 p.stxt5 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #2c2c2c; }
+      .sec4 .yslygi .bl5 button.zakaz {
+        width: 184px;
+        height: 51px;
+        background-color: #0061fd;
+        color: white;
+        font-family: Akrobat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 51px;
+        text-transform: uppercase;
+        border: none;
+        margin: 34px auto 0; }
+    .sec4 .yslygi .bl6 {
+      width: 360px;
+      height: 271px;
+      background-color: white;
+      text-align: center;
+      float: left;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding-top: 22px; }
+      .sec4 .yslygi .bl6 p.ys6 {
+        color: #2c2c2c;
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 33px;
+        text-transform: uppercase;
+        margin-bottom: 10px; }
+      .sec4 .yslygi .bl6 p.price6 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0061fd;
+        padding-top: 10px; }
+        .sec4 .yslygi .bl6 p.price6 span.sub {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 10px;
+          position: relative;
+          top: -2px; }
+      .sec4 .yslygi .bl6 p.stxt6 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #2c2c2c; }
+      .sec4 .yslygi .bl6 button.zakaz {
+        width: 184px;
+        height: 51px;
+        background-color: #0061fd;
+        color: white;
+        font-family: Akrobat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 51px;
+        text-transform: uppercase;
+        border: none;
+        margin: 18px auto 0; }
+    .sec4 .yslygi .bl7 {
+      padding-top: 22px;
+      width: 360px;
+      text-align: center;
+      height: 271px;
+      background-color: white;
+      float: left;
+      clear: both;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-left: 50px; }
+      .sec4 .yslygi .bl7 p.ys7 {
+        color: #2c2c2c;
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 33px;
+        text-transform: uppercase; }
+      .sec4 .yslygi .bl7 p.price7 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0061fd;
+        padding-top: 10px; }
+        .sec4 .yslygi .bl7 p.price7 span.sub {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 10px;
+          position: relative;
+          top: -2px; }
+      .sec4 .yslygi .bl7 p.stxt7 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #2c2c2c; }
+      .sec4 .yslygi .bl7 button.zakaz {
+        width: 184px;
+        height: 51px;
+        background-color: #0061fd;
+        color: white;
+        font-family: Akrobat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 51px;
+        text-transform: uppercase;
+        border: none;
+        margin: 18px auto 0; }
+    .sec4 .yslygi .bl8 {
+      padding-top: 22px;
+      width: 360px;
+      height: 271px;
+      text-align: center;
+      background-color: white;
+      float: left;
+      margin-top: 10px;
+      margin-right: 10px; }
+      .sec4 .yslygi .bl8 p.ys8 {
+        color: #2c2c2c;
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 33px;
+        text-transform: uppercase; }
+      .sec4 .yslygi .bl8 p.price8 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #0061fd;
+        padding-top: 10px; }
+        .sec4 .yslygi .bl8 p.price8 span.sub {
+          display: inline-block;
+          vertical-align: top;
+          font-size: 10px;
+          position: relative;
+          top: -2px; }
+      .sec4 .yslygi .bl8 p.stxt8 {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        color: #2c2c2c; }
+      .sec4 .yslygi .bl8 button.zakaz {
+        width: 184px;
+        height: 51px;
+        background-color: #0061fd;
+        color: white;
+        font-family: Akrobat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 51px;
+        text-transform: uppercase;
+        border: none;
+        margin: 18px auto 0; }
+    .sec4 .yslygi .bl9 {
+      width: 360px;
+      height: 271px;
+      text-align: center;
+      float: left;
+      margin-top: 10px; }
+      .sec4 .yslygi .bl9 p.ys9 {
+        color: white;
+        font-size: 150px;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding-top: 25px;
+        font-family: MuseoSansCyrl;
+        line-height: 181px; }
+      .sec4 .yslygi .bl9 p.stxt9 {
+        font-family: MuseoSansCyrl;
+        font-size: 20px;
+        color: white;
+        margin-top: -17px; }
+
+.sec5 {
+  padding-top: 38px; }
+  .sec5 h3 {
+    color: #2c2c2c;
+    font-family: Akrobat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 26px; }
+  .sec5 .left {
+    float: left;
+    width: 431px;
+    margin-left: 10px; }
+    .sec5 .left .ico1 {
+      width: 201px;
+      height: 218px;
+      background-image: url(../img/ico1.jpg);
+      background-position: center;
+      float: left;
+      margin-right: 10px; }
+    .sec5 .left .ico2 {
+      width: 201px;
+      height: 218px;
+      background-image: url(../img/ico1.jpg);
+      background-position: center;
+      float: left;
+      position: relative; }
+      .sec5 .left .ico2 .search {
+        position: absolute;
+        background-image: url(../img/lypa.png);
+        width: 60px;
+        height: 60px;
+        background-color: #0000fe;
+        box-shadow: 0 0 32px rgba(0, 0, 254, 0.41);
+        border-radius: 100%;
+        top: 36%;
+        margin-left: -30px;
+        left: 50%;
+        cursor: pointer; }
+    .sec5 .left .ico3 {
+      width: 201px;
+      height: 218px;
+      background-image: url(../img/ico1.jpg);
+      background-position: center;
+      float: left;
+      clear: both;
+      margin-top: 10px; }
+    .sec5 .left .ico4 {
+      width: 201px;
+      height: 218px;
+      background-image: url(../img/ico1.jpg);
+      background-position: center;
+      float: left;
+      margin-top: 10px;
+      margin-left: 10px; }
+  .sec5 .right {
+    float: right;
+    width: 735px;
+    padding-top: 5px; }
+    .sec5 .right .zakazchik {
+      font-family: Akrobat;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #2c2c2c;
+      line-height: 25px;
+      padding-bottom: 23px; }
+      .sec5 .right .zakazchik span.zakaz {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        display: inline-block;
+        margin-left: 4px;
+        text-transform: none;
+        letter-spacing: -0.3px; }
+    .sec5 .right .mesto {
+      font-family: Akrobat;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #2c2c2c;
+      line-height: 25px;
+      padding-bottom: 23px; }
+      .sec5 .right .mesto span.mest {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        display: inline-block;
+        margin-left: 4px;
+        text-transform: none;
+        letter-spacing: -0.3px; }
+    .sec5 .right .obemm {
+      font-family: Akrobat;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #2c2c2c;
+      line-height: 25px;
+      padding-bottom: 23px; }
+      .sec5 .right .obemm span.obm {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        display: inline-block;
+        margin-left: 4px;
+        text-transform: none;
+        letter-spacing: -0.3px; }
+    .sec5 .right .zadacha {
+      font-family: Akrobat;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #2c2c2c;
+      line-height: 25px;
+      padding-bottom: 23px;
+      width: 700px; }
+      .sec5 .right .zadacha span.quest {
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        margin-left: 8px;
+        text-transform: none;
+        letter-spacing: -0.3px;
+        line-height: 15px; }
+  .sec5 .slidcontrol {
+    margin: 40px auto 0;
+    width: 105px; }
+    .sec5 .slidcontrol .dot {
+      width: 13px;
+      height: 13px;
+      background-color: #0061fd;
+      opacity: 0.3;
+      border-radius: 100%;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 13px;
+      cursor: pointer; }
+      .sec5 .slidcontrol .dot:hover {
+        background-color: #0061fd;
+        opacity: 1; }
+      .sec5 .slidcontrol .dot:last-of-type {
+        margin-right: 0; }
+
+.sec6 {
+  padding-top: 42px; }
+  .sec6 h3 {
+    color: #2c2c2c;
+    letter-spacing: 0px;
+    font-family: Akrobat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-bottom: 2px; }
+  .sec6 p.zajavka {
+    color: #2c2c2c;
+    font-family: MuseoSansCyrl;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 28px; }
+  .sec6 form.questfrom {
+    margin-left: 177px; }
+    .sec6 form.questfrom input {
+      width: 272px;
+      height: 61px;
+      opacity: 0.3;
+      border: 1px solid #2c2c2c;
+      margin-top: 4px;
+      margin-right: 6px;
+      vertical-align: top;
+      padding-left: 19px;
+      line-height: 61px;
+      font-family: MuseoSansCyrl; }
+    .sec6 form.questfrom button.callback {
+      width: 272px;
+      height: 69px;
+      background-color: #0061fd;
+      color: white;
+      font-family: Akrobat;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 57px;
+      text-transform: uppercase;
+      margin-left: 8px;
+      border: none;
+      letter-spacing: 1px; }
+
+.sec7 {
+  padding-top: 62px;
+  background-color: #5898ff;
+  padding-bottom: 40px; }
+  .sec7 h3 {
+    color: white;
+    font-family: Akrobat;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    padding-bottom: 2px; }
+  .sec7 p.garant {
+    color: white;
+    font-family: MuseoSansCyrl;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.3px; }
+  .sec7 .garantija {
+    margin-top: 5px;
+    height: 310px; }
+    .sec7 .garantija .gleft {
+      float: left;
+      width: 320px;
+      height: 310px;
+      background-image: url(../img/kaska.png);
+      background-position: -7px 18px;
+      margin-left: 120px; }
+    .sec7 .garantija .gright {
+      float: right;
+      width: 709px;
+      margin-top: 94px; }
+      .sec7 .garantija .gright p.exp {
+        color: white;
+        font-family: Akrobat;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 38px;
+        text-transform: uppercase;
+        margin-bottom: 18px; }
+      .sec7 .garantija .gright .line1 {
+        width: 72px;
+        height: 2px;
+        background-color: white;
+        margin-left: 2px;
+        margin-bottom: 19px; }
+      .sec7 .garantija .gright p.inf1 {
+        color: white;
+        font-family: MuseoSansCyrl;
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 600px;
+        letter-spacing: -0.1px;
+        margin-left: 2px; }
+  .sec7 .device {
+    height: 400px; }
+    .sec7 .device .leftdevice {
+      float: left;
+      width: 601px;
+      height: 180px;
+      margin-left: 141px;
+      margin-top: 136px; }
+      .sec7 .device .leftdevice p.pokrutie {
+        color: white;
+        font-family: Akrobat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        text-transform: uppercase;
+        margin-bottom: 18px; }
+      .sec7 .device .leftdevice .line2 {
+        width: 72px;
+        height: 2px;
+        background-color: white;
+        margin-left: 2px;
+        margin-bottom: 19px; }
+      .sec7 .device .leftdevice .inf2 {
+        color: white;
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 600px;
+        letter-spacing: -0.1px;
+        margin-left: 2px; }
+    .sec7 .device .rightdevice {
+      float: right;
+      width: 449px;
+      height: 400px;
+      background-image: url(../img/pulik.png);
+      background-position: 37px 26px; }
+  .sec7 .control {
+    height: 340px; }
+    .sec7 .control .leftcontrol {
+      float: left;
+      width: 311px;
+      height: 311px;
+      margin-left: 120px;
+      background-image: url(../img/control.png);
+      background-position: -24px 6px; }
+    .sec7 .control .rightcontrol {
+      float: right;
+      width: 709px;
+      height: 330px;
+      margin-top: 86px; }
+      .sec7 .control .rightcontrol p.kachestvo {
+        color: white;
+        font-family: Akrobat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        text-transform: uppercase;
+        margin-bottom: 18px; }
+      .sec7 .control .rightcontrol .line3 {
+        width: 72px;
+        height: 2px;
+        background-color: white;
+        margin-left: 2px;
+        margin-bottom: 19px; }
+      .sec7 .control .rightcontrol p.inf3 {
+        color: white;
+        font-family: MuseoSansCyrl;
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 600px;
+        letter-spacing: -0.1px;
+        margin-left: 2px; }
+
+.sec8 {
+  padding-top: 54px;
+  margin-bottom: 30px; }
+  .sec8 h3 {
+    color: #2c2c2c;
+    letter-spacing: 0.2px;
+    font-family: Akrobat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-bottom: 2px; }
+    .sec8 h3 span.sub {
+      display: inline-block;
+      vertical-align: top;
+      font-size: 23px;
+      position: relative;
+      top: -6px;
+      right: 1px; }
+  .sec8 p.zajavka {
+    color: #2c2c2c;
+    font-family: MuseoSansCyrl;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 28px; }
+  .sec8 form.questfrom {
+    text-align: center;
+    margin: 0 auto; }
+    .sec8 form.questfrom input {
+      width: 272px;
+      height: 61px;
+      opacity: 0.3;
+      border: 1px solid #2c2c2c;
+      margin-top: 4px;
+      margin-right: 6px;
+      vertical-align: top;
+      padding-left: 19px;
+      line-height: 61px;
+      font-family: MuseoSansCyrl; }
+    .sec8 form.questfrom button.callback {
+      width: 272px;
+      height: 69px;
+      background-color: #0061fd;
+      color: white;
+      font-family: Akrobat;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 69px;
+      text-transform: uppercase;
+      margin-left: 10px;
+      border: none;
+      letter-spacing: 1.9px; }
+
+.sec9 .bg_sert {
+  background: url(../img/bg_sert.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 463px;
+  position: absolute;
+  z-index: -2;
+  max-width: 100%;
+  width: 100%; }
+
+.sec9 h3 {
+  color: white;
+  font-family: Akrobat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  padding-top: 49px;
+  margin-bottom: 35px; }
+
+.sec9 .tender1 {
+  float: left;
+  width: 357px;
+  height: 440px;
+  background-image: url(../img/tender.png);
+  background-position: -55px -34px;
+  margin-left: 14px; }
+
+.sec9 .tender2 {
+  float: left;
+  width: 357px;
+  height: 440px;
+  background-image: url(../img/tender.png);
+  background-position: -56px -34px;
+  margin-left: 53px; }
+
+.sec9 .tender3 {
+  float: left;
+  width: 358px;
+  height: 440px;
+  background-image: url(../img/tender.png);
+  background-position: -54px -34px;
+  margin-left: 53px; }
+
+.sec10 {
+  padding-top: 84px; }
+  .sec10 h3 {
+    color: #2c2c2c;
+    font-family: Akrobat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    margin-bottom: 44px; }
+  .sec10 .otzleft {
+    float: left;
+    width: 361px;
+    height: 330px;
+    background-image: url(../img/otzico.jpg);
+    background-position: 1px 1px;
+    margin-left: 9px;
+    margin-top: 7px; }
+  .sec10 .otzright {
+    float: right;
+    width: 770px;
+    height: 330px; }
+    .sec10 .otzright p.gazprom {
+      color: #2c2c2c;
+      line-height: 25px;
+      font-family: Akrobat;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-bottom: 26px; }
+    .sec10 .otzright p.inf4 {
+      font-family: MuseoSansCyrl;
+      font-size: 16px;
+      line-height: 25px;
+      letter-spacing: -0.2px;
+      padding-bottom: 23px; }
+    .sec10 .otzright p.nameing {
+      color: #2c2c2c;
+      line-height: 25px;
+      font-family: Akrobat;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase; }
+  .sec10 .slidcontrol {
+    margin: 38px auto 0;
+    width: 105px; }
+    .sec10 .slidcontrol .dot {
+      width: 13px;
+      height: 13px;
+      background-color: #0061fd;
+      opacity: 0.3;
+      border-radius: 100%;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 13px;
+      cursor: pointer; }
+      .sec10 .slidcontrol .dot:hover {
+        background-color: #0061fd;
+        opacity: 1; }
+      .sec10 .slidcontrol .dot:last-of-type {
+        margin-right: 0; }
+
+.sec11 .shema {
+  padding-top: 75px; }
+  .sec11 .shema .step1 {
+    color: #2c2c2c;
+    font-family: Akrobat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 255px; }
+  .sec11 .shema .step2 {
+    display: inline-block;
+    margin-left: 70px;
+    width: 255px;
+    height: 250px;
+    vertical-align: middle;
+    background-image: url(../img/01.png);
+    background-position: 67px 15px; }
+    .sec11 .shema .step2 p.stp1 {
+      color: #2c2c2c;
+      font-family: MuseoSansCyrl;
+      font-size: 20px;
+      line-height: 27px;
+      text-align: center;
+      padding-top: 103px; }
+    .sec11 .shema .step2 button.callback {
+      width: 187px;
+      height: 51px;
+      background-color: #0061fd;
+      color: white;
+      font-family: Akrobat;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 51px;
+      text-transform: uppercase;
+      display: block;
+      margin: 23px auto;
+      border: none;
+      letter-spacing: 0.8px; }
+  .sec11 .shema .step3 {
+    vertical-align: middle;
+    width: 255px;
+    margin-left: 53px;
+    height: 250px;
+    display: inline-block;
+    background-image: url(../img/02.png);
+    background-position: 65px 15px; }
+    .sec11 .shema .step3 p.stp2 {
+      color: #2c2c2c;
+      font-family: MuseoSansCyrl;
+      font-size: 20px;
+      line-height: 27px;
+      padding-top: 103px;
+      text-align: center; }
+  .sec11 .shema .step4 {
+    vertical-align: middle;
+    width: 245px;
+    height: 250px;
+    display: inline-block;
+    background-image: url(../img/03.png);
+    background-position: 75px 15px;
+    margin-left: 43px;
+    padding-left: 28px; }
+    .sec11 .shema .step4 p.stp3 {
+      color: #2c2c2c;
+      font-family: MuseoSansCyrl;
+      font-size: 20px;
+      line-height: 27px;
+      padding-top: 103px;
+      text-align: center; }
+
+.sec12 {
+  height: 462px; }
+  .sec12 .map {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/map.jpg);
+    background-position: center;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 0; }
+  .sec12 .adress {
+    width: 280px;
+    height: 184px;
+    background: white;
+    padding-left: 29px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    margin-left: -590px;
+    top: 0;
+    z-index: 2; }
+    .sec12 .adress .phone {
+      padding-top: 23px;
+      margin-bottom: 14px; }
+      .sec12 .adress .phone p.ph {
+        font-family: Akrobat;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #2c2c2c;
+        font-weight: 700; }
+      .sec12 .adress .phone p.nmr {
+        font-family: Akrobat;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #0061fd;
+        font-weight: 900; }
+    .sec12 .adress .line_adr {
+      width: 220px;
+      height: 1px;
+      opacity: 0.1;
+      background-color: #2c2c2c;
+      margin-bottom: 13px; }
+    .sec12 .adress .adr {
+      font-family: Akrobat;
+      font-size: 20px;
+      line-height: 27px;
+      text-transform: uppercase;
+      color: #2c2c2c;
+      font-weight: 700; }
+
+.sec13 {
+  padding-top: 40px;
+  height: 430px; }
+  .sec13 h3 {
+    color: #2c2c2c;
+    font-family: Akrobat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    letter-spacing: -0.3px; }
+  .sec13 p.zajavka {
+    color: #2c2c2c;
+    font-family: MuseoSansCyrl;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 28px; }
+  .sec13 form.questfrom {
+    margin-left: 177px; }
+    .sec13 form.questfrom input {
+      width: 272px;
+      height: 61px;
+      opacity: 0.3;
+      border: 1px solid #2c2c2c;
+      margin-top: 4px;
+      margin-right: 6px;
+      vertical-align: top;
+      padding-left: 19px;
+      line-height: 61px;
+      font-family: MuseoSansCyrl; }
+    .sec13 form.questfrom button.callback {
+      width: 272px;
+      height: 69px;
+      background-color: #0061fd;
+      color: white;
+      font-family: Akrobat;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 69px;
+      text-transform: uppercase;
+      margin-left: 8px;
+      border: none;
+      letter-spacing: 1px; }
+
+@media only screen and (max-width: 1200px) {
+  .section > div,
+  .head > div,
+  header > div,
+  section > div,
+  footer > div {
+    max-width: 980px; }
+  .sec1 .left {
+    width: 545px;
+    height: initial; }
+    .sec1 .left .svel {
+      margin-bottom: 96px; }
+    .sec1 .left p.maintext {
+      font-size: 35px; }
+      .sec1 .left p.maintext span {
+        font-size: 35px; }
+    .sec1 .left ul li {
+      font-size: 18px; }
+  .sec1 .right {
+    padding-left: 52px;
+    width: 410px;
+    text-align: center; }
+    .sec1 .right .number {
+      background-position: 181px 5px; }
+    .sec1 .right p.frst {
+      font-size: 25px;
+      text-align: center; }
+      .sec1 .right p.frst:after {
+        right: -76px;
+        top: 129px; }
+  .sec1 .bg_left {
+    width: 587px; }
+  .sec1 .bg_right {
+    width: 397px; }
+  .sec3 .aboutcompany .el1 {
+    width: 300px;
+    height: 360px;
+    margin: 0 10px 0; }
+    .sec3 .aboutcompany .el1 p.ocompany {
+      font-size: 35px; }
+    .sec3 .aboutcompany .el1 p.txt1 {
+      line-height: 20px; }
+  .sec3 .aboutcompany .el2 {
+    width: 300px;
+    height: 360px;
+    margin: 0 10px 0;
+    background-position: 55px 4px; }
+  .sec3 .aboutcompany .el3 {
+    width: 300px;
+    height: 360px;
+    margin: 0 10px 0;
+    background-position: 25px 10px; }
+  .sec3 .aboutcompany .el4 {
+    width: 300px;
+    height: 360px;
+    margin: 0 10px 0;
+    background-position: 69px 4px; }
+  .sec3 .aboutcompany .el5 {
+    width: 300px;
+    height: 360px;
+    margin: 0 10px 0;
+    clear: none;
+    background-position: 26px 18px; }
+    .sec3 .aboutcompany .el5 p.txt5 {
+      padding-top: 203px; }
+  .sec3 .aboutcompany .el6 {
+    width: 300px;
+    height: 360px;
+    margin: 0 10px 0;
+    background-position: 7px -4px; }
+    .sec3 .aboutcompany .el6 p.txt6 {
+      padding-top: 203px; }
+  .sec3 .aboutcompany .el7 {
+    width: 300px;
+    height: 360px;
+    margin: 0 10px 0;
+    margin-left: 150px; }
+  .sec3 .aboutcompany .el8 {
+    width: 300px;
+    height: 360px;
+    margin: 0 10px 0; }
+    .sec3 .aboutcompany .el8 p.txt8 {
+      padding-top: 279px; }
+  .sec4 .yslygi {
+    text-align: center; }
+    .sec4 .yslygi .bl1 {
+      width: 360px;
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl2 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl3 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl4 {
+      clear: none;
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl5 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl6 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl7 {
+      clear: none;
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl8 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl9 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+  .sec5 .right {
+    width: 538px; }
+    .sec5 .right .zakazchik {
+      font-size: 17px; }
+      .sec5 .right .zakazchik span.zakaz {
+        font-size: 14px; }
+    .sec5 .right .mesto {
+      font-size: 17px; }
+      .sec5 .right .mesto span.mest {
+        font-size: 14px; }
+    .sec5 .right .obemm {
+      font-size: 17px; }
+      .sec5 .right .obemm span.obm {
+        font-size: 14px; }
+    .sec5 .right .zadacha {
+      font-size: 17px;
+      width: 538px; }
+      .sec5 .right .zadacha span.quest {
+        font-size: 14px; }
+  .sec6 form.questfrom {
+    margin: 0 auto;
+    display: block;
+    text-align: center; }
+  .sec7 .garantija .gleft {
+    margin-left: 80px;
+    background-position: -7px 66px;
+    background-size: 260px; }
+  .sec7 .garantija .gright {
+    width: 579px; }
+    .sec7 .garantija .gright p.exp {
+      font-size: 27px; }
+    .sec7 .garantija .gright p.inf1 {
+      font-size: 16px; }
+  .sec7 .device .leftdevice {
+    margin-left: 30px; }
+    .sec7 .device .leftdevice p.pokrutie {
+      font-size: 30px; }
+    .sec7 .device .leftdevice .inf2 {
+      font-size: 16px; }
+  .sec7 .device .rightdevice {
+    width: 340px; }
+  .sec7 .control .leftcontrol {
+    margin-left: 30px; }
+  .sec7 .control .rightcontrol {
+    width: 600px; }
+    .sec7 .control .rightcontrol p.kachestvo {
+      font-size: 27px; }
+    .sec7 .control .rightcontrol p.inf3 {
+      font-size: 16px; }
+  .sec8 form.questfrom button.callback {
+    text-align: center;
+    margin: 12px auto; }
+  .sec9 {
+    margin: 0 auto;
+    text-align: center; }
+    .sec9 .tender1 {
+      display: inline-block;
+      margin: 0 auto;
+      text-align: center;
+      background-size: 390px;
+      background-position: -55px -4px;
+      width: 286px;
+      height: 393px;
+      float: none; }
+    .sec9 .tender2 {
+      display: inline-block;
+      background-size: 390px;
+      background-position: -55px -4px;
+      margin: 0 15px;
+      text-align: center;
+      float: none;
+      width: 286px;
+      height: 393px; }
+    .sec9 .tender3 {
+      display: inline-block;
+      background-size: 390px;
+      background-position: -55px -4px;
+      width: 286px;
+      height: 393px;
+      float: none;
+      margin: 0 auto;
+      text-align: center; }
+  .sec10 .otzleft {
+    margin-top: 5px;
+    background-size: 300px;
+    background-position: 31px 1px; }
+  .sec10 .otzright {
+    width: 590px; }
+    .sec10 .otzright p.gazprom {
+      font-size: 20px;
+      padding-bottom: 12px; }
+    .sec10 .otzright p.inf4 {
+      padding-bottom: 23px; }
+      .sec10 .otzright p.inf4 br {
+        display: none; }
+    .sec10 .otzright p.nameing {
+      font-size: 17px; }
+  .sec11 .shema .step1 {
+    display: inline-block;
+    float: none;
+    font-size: 35px;
+    width: 225px;
+    margin-left: 0; }
+  .sec11 .shema .step2 {
+    display: inline-block;
+    width: 225px;
+    background-position: top center;
+    margin-left: 0;
+    float: none; }
+    .sec11 .shema .step2 p.stp1 {
+      font-size: 17px; }
+  .sec11 .shema .step3 {
+    display: inline-block;
+    width: 225px;
+    background-position: top center;
+    margin-left: 0;
+    float: none; }
+    .sec11 .shema .step3 p.stp2 {
+      font-size: 17px; }
+  .sec11 .shema .step4 {
+    display: inline-block;
+    background-position: top center;
+    width: 225px;
+    float: none; }
+    .sec11 .shema .step4 p.stp3 {
+      font-size: 17px; }
+  .sec12 .adress {
+    margin-left: -450px; }
+  .sec13 h3 {
+    padding-bottom: 32px; }
+  .sec13 form.questfrom {
+    text-align: center;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 980px) {
+  .section > div,
+  .head > div,
+  header > div,
+  section > div,
+  footer > div {
+    max-width: 768px; }
+  .sec1 .left {
+    width: 467px;
+    height: initial; }
+    .sec1 .left .svel {
+      margin-bottom: 96px; }
+    .sec1 .left p.maintext {
+      font-size: 25px;
+      text-align: left; }
+      .sec1 .left p.maintext span {
+        font-size: 25px; }
+    .sec1 .left ul li {
+      font-size: 18px; }
+  .sec1 .right {
+    padding-left: 0px;
+    width: 283px;
+    text-align: center; }
+    .sec1 .right .number {
+      background-position: 97px 5px;
+      margin-bottom: 111px; }
+    .sec1 .right p.frst {
+      font-size: 23px;
+      text-align: center; }
+      .sec1 .right p.frst:after {
+        right: -76px;
+        top: 129px; }
+    .sec1 .right p.form {
+      text-align: center;
+      font-size: 14px; }
+      .sec1 .right p.form br {
+        display: none; }
+    .sec1 .right input {
+      width: 232px;
+      height: 51px; }
+    .sec1 .right button.callback {
+      width: 232px;
+      height: 61px;
+      line-height: 61px;
+      font-size: 22px; }
+  .sec1 .bg_left {
+    width: 467px; }
+  .sec1 .bg_right {
+    width: 283px; }
+  .sec2 h2 {
+    font-size: 35px; }
+  .sec2 .clients {
+    width: 680px; }
+    .sec2 .clients .cl1 {
+      width: 60px; }
+    .sec2 .clients .cl2 {
+      width: 175px; }
+  .sec3 .aboutcompany .el1 {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: left;
+    padding-left: 45px; }
+    .sec3 .aboutcompany .el1 p.ocompany {
+      font-size: 35px; }
+    .sec3 .aboutcompany .el1 p.txt1 {
+      line-height: 20px; }
+  .sec3 .aboutcompany .el2 {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+    background-position: 55px 4px; }
+  .sec3 .aboutcompany .el3 {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+    background-position: 25px 19px; }
+  .sec3 .aboutcompany .el4 {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+    background-position: 69px 5px; }
+  .sec3 .aboutcompany .el5 {
+    width: 300px;
+    height: 260px;
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+    clear: none;
+    background-position: 26px 18px; }
+    .sec3 .aboutcompany .el5 p.txt5 {
+      padding-top: 203px; }
+  .sec3 .aboutcompany .el6 {
+    width: 300px;
+    height: 260px;
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+    background-position: 7px -4px; }
+    .sec3 .aboutcompany .el6 p.txt6 {
+      padding-top: 203px; }
+  .sec3 .aboutcompany .el7 {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+    margin-left: 0; }
+  .sec3 .aboutcompany .el8 {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center; }
+    .sec3 .aboutcompany .el8 p.txt8 {
+      padding-top: 279px; }
+  .sec4 .yslygi {
+    text-align: center; }
+    .sec4 .yslygi .bl1 {
+      width: 360px;
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl2 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl3 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl4 {
+      clear: none;
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl5 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl6 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl7 {
+      clear: none;
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl8 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl9 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+  .sec5 .left {
+    float: none;
+    display: inline-block;
+    width: 332px; }
+    .sec5 .left .ico1 {
+      background-size: auto;
+      width: 161px;
+      height: 178px; }
+    .sec5 .left .ico2 {
+      background-size: auto;
+      width: 161px;
+      height: 178px; }
+    .sec5 .left .ico3 {
+      background-size: auto;
+      width: 161px;
+      height: 178px; }
+    .sec5 .left .ico4 {
+      background-size: auto;
+      width: 161px;
+      height: 178px; }
+  .sec5 .right {
+    width: 363px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0; }
+    .sec5 .right .zakazchik {
+      font-size: 17px;
+      padding-bottom: 10px; }
+      .sec5 .right .zakazchik span.zakaz {
+        font-size: 14px; }
+    .sec5 .right .mesto {
+      font-size: 17px;
+      width: 390px;
+      padding-bottom: 13px; }
+      .sec5 .right .mesto span.mest {
+        font-size: 14px; }
+    .sec5 .right .obemm {
+      font-size: 17px;
+      padding-bottom: 14px; }
+      .sec5 .right .obemm span.obm {
+        font-size: 14px; }
+    .sec5 .right .zadacha {
+      font-size: 17px;
+      width: 388px; }
+      .sec5 .right .zadacha span.quest {
+        font-size: 14px; }
+  .sec6 form.questfrom {
+    margin: 0 auto;
+    display: block;
+    text-align: center; }
+    .sec6 form.questfrom input {
+      width: 212px;
+      height: 51px; }
+    .sec6 form.questfrom button.callback {
+      width: 252px;
+      height: 59px;
+      line-height: 59px; }
+  .sec7 .garantija .gleft {
+    margin-left: 0px;
+    background-position: -7px 87px;
+    background-size: 260px;
+    width: 260px;
+    height: 350px; }
+  .sec7 .garantija .gright {
+    width: 490px; }
+    .sec7 .garantija .gright p.exp {
+      font-size: 25px; }
+    .sec7 .garantija .gright p.inf1 {
+      font-size: 16px;
+      padding-right: 30px; }
+  .sec7 .device .leftdevice {
+    width: 451px;
+    margin-left: 20px; }
+    .sec7 .device .leftdevice p.pokrutie {
+      font-size: 25px; }
+    .sec7 .device .leftdevice .inf2 {
+      font-size: 16px; }
+  .sec7 .device .rightdevice {
+    width: 279px;
+    background-size: 220px;
+    background-position: 37px 86px; }
+  .sec7 .control .leftcontrol {
+    margin-left: 20px;
+    background-size: 250px;
+    width: 251px;
+    height: 251px; }
+  .sec7 .control .rightcontrol {
+    width: 430px;
+    margin-top: 0px; }
+    .sec7 .control .rightcontrol p.kachestvo {
+      font-size: 25px; }
+    .sec7 .control .rightcontrol p.inf3 {
+      font-size: 16px; }
+  .sec8 form.questfrom input {
+    width: 232px;
+    height: 51px;
+    margin-right: 3px;
+    margin-left: 3px; }
+  .sec8 form.questfrom button.callback {
+    text-align: center;
+    margin: 12px auto;
+    width: 232px;
+    height: 59px;
+    line-height: 59px; }
+  .sec9 {
+    margin: 0 auto;
+    text-align: center; }
+    .sec9 .tender1 {
+      display: inline-block;
+      margin: 0 auto;
+      text-align: center;
+      background-size: 390px;
+      background-position: -55px -4px;
+      width: 286px;
+      height: 393px;
+      float: none; }
+    .sec9 .tender2 {
+      display: inline-block;
+      background-size: 390px;
+      background-position: -55px -4px;
+      margin: 0 15px;
+      text-align: center;
+      float: none;
+      width: 286px;
+      height: 393px; }
+    .sec9 .tender3 {
+      display: inline-block;
+      background-size: 390px;
+      width: 286px;
+      height: 369px;
+      background-position: -55px -27px;
+      float: none;
+      margin: 0 auto;
+      text-align: center; }
+  .sec10 .otzleft {
+    margin-top: 0px;
+    background-size: 300px;
+    background-position: center;
+    width: 300px;
+    height: 275px; }
+  .sec10 .otzright {
+    width: 430px; }
+    .sec10 .otzright p.gazprom {
+      font-size: 20px;
+      padding-bottom: 4px;
+      line-height: 23px; }
+    .sec10 .otzright p.inf4 {
+      padding-bottom: 23px;
+      font-size: 15px; }
+      .sec10 .otzright p.inf4 br {
+        display: none; }
+    .sec10 .otzright p.nameing {
+      font-size: 17px; }
+  .sec11 .shema {
+    padding-top: 35px; }
+    .sec11 .shema .step1 {
+      display: inline-block;
+      float: none;
+      font-size: 35px;
+      margin-left: 0;
+      width: 100%;
+      text-align: center; }
+    .sec11 .shema .step2 {
+      display: inline-block;
+      width: 225px;
+      background-position: top center;
+      margin-left: 0;
+      float: none; }
+      .sec11 .shema .step2 p.stp1 {
+        font-size: 17px; }
+    .sec11 .shema .step3 {
+      display: inline-block;
+      width: 225px;
+      background-position: top center;
+      margin-left: 0;
+      float: none; }
+      .sec11 .shema .step3 p.stp2 {
+        font-size: 17px; }
+    .sec11 .shema .step4 {
+      display: inline-block;
+      background-position: top center;
+      width: 225px;
+      float: none; }
+      .sec11 .shema .step4 p.stp3 {
+        font-size: 17px; }
+  .sec12 .adress {
+    margin-left: -357px; }
+  .sec13 h3 {
+    padding-bottom: 32px;
+    font-size: 35px; }
+  .sec13 form.questfrom {
+    text-align: center;
+    margin: 0 auto; }
+    .sec13 form.questfrom input {
+      width: 222px;
+      height: 51px; }
+    .sec13 form.questfrom button.callback {
+      width: 252px;
+      height: 59px;
+      line-height: 59px; } }
+
+@media only screen and (max-width: 768px) {
+  .section > div,
+  .head > div,
+  header > div,
+  section > div,
+  footer > div {
+    max-width: 520px; }
+  .sec1 .left {
+    width: 100%;
+    height: initial; }
+    .sec1 .left .svel {
+      margin-bottom: 76px; }
+    .sec1 .left:before {
+      margin-left: 30px; }
+    .sec1 .left p.maintext {
+      font-size: 25px;
+      text-align: left;
+      padding-left: 20px; }
+      .sec1 .left p.maintext span {
+        font-size: 25px; }
+    .sec1 .left ul {
+      padding-left: 30px;
+      padding-bottom: 30px; }
+      .sec1 .left ul li {
+        font-size: 18px; }
+  .sec1 .mouse {
+    display: none; }
+  .sec1 .right {
+    padding-left: 0px;
+    text-align: center;
+    width: 100%; }
+    .sec1 .right .number {
+      background-position: 139px 8px;
+      margin-bottom: 50px;
+      margin: 40px auto;
+      text-align: center;
+      font-size: 26px; }
+    .sec1 .right p.frst {
+      font-size: 23px;
+      text-align: center; }
+      .sec1 .right p.frst:after {
+        right: -76px;
+        top: 129px; }
+    .sec1 .right p.form {
+      text-align: center;
+      font-size: 16px;
+      margin: 0 auto;
+      width: 100%;
+      float: none; }
+      .sec1 .right p.form br {
+        display: none; }
+    .sec1 .right input {
+      width: 232px;
+      height: 51px; }
+    .sec1 .right button.callback {
+      width: 232px;
+      height: 61px;
+      line-height: 61px;
+      font-size: 22px; }
+  .sec1 .bg_left {
+    display: none; }
+  .sec1 .bg_right {
+    display: none; }
+  .sec2 h2 {
+    font-size: 35px; }
+  .sec2 .clients {
+    width: 430px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    height: 160px;
+    margin-left: 40px;
+    margin-bottom: 30px; }
+    .sec2 .clients .cl1 {
+      width: 130px;
+      height: 70px;
+      vertical-align: middle;
+      background-position: 36px 28px; }
+    .sec2 .clients .cl2 {
+      width: 175px;
+      height: 70px;
+      vertical-align: middle; }
+    .sec2 .clients .cl3 {
+      height: 80px;
+      vertical-align: middle; }
+    .sec2 .clients .cl4 {
+      height: 80px;
+      vertical-align: middle; }
+  .sec3 .aboutcompany {
+    text-align: center;
+    margin: 0 auto; }
+    .sec3 .aboutcompany .el1 {
+      width: 300px;
+      height: 330px;
+      display: inline-block;
+      margin: 0px auto;
+      float: none;
+      text-align: left; }
+      .sec3 .aboutcompany .el1 p.ocompany {
+        font-size: 35px; }
+      .sec3 .aboutcompany .el1 p.txt1 {
+        line-height: 20px; }
+    .sec3 .aboutcompany .el2 {
+      width: 300px;
+      height: 330px;
+      display: inline-block;
+      margin: 0px auto;
+      float: none;
+      text-align: left;
+      background-position: 55px 4px; }
+    .sec3 .aboutcompany .el3 {
+      width: 300px;
+      height: 330px;
+      display: inline-block;
+      margin: 0px auto;
+      float: none;
+      text-align: left;
+      background-position: 25px 19px; }
+    .sec3 .aboutcompany .el4 {
+      width: 300px;
+      height: 330px;
+      display: inline-block;
+      margin: 0px auto;
+      float: none;
+      text-align: left;
+      background-position: 69px 5px; }
+    .sec3 .aboutcompany .el5 {
+      width: 300px;
+      height: 330px;
+      display: inline-block;
+      margin: 0px auto;
+      float: none;
+      text-align: left;
+      clear: none;
+      background-position: 26px 18px; }
+      .sec3 .aboutcompany .el5 p.txt5 {
+        padding-top: 203px; }
+    .sec3 .aboutcompany .el6 {
+      width: 300px;
+      height: 330px;
+      display: inline-block;
+      margin: 0px auto;
+      float: none;
+      text-align: left;
+      background-position: 7px -4px; }
+      .sec3 .aboutcompany .el6 p.txt6 {
+        padding-top: 203px; }
+    .sec3 .aboutcompany .el7 {
+      width: 300px;
+      height: 330px;
+      display: inline-block;
+      margin: 0px auto;
+      float: none;
+      text-align: left; }
+    .sec3 .aboutcompany .el8 {
+      width: 300px;
+      height: 330px;
+      display: inline-block;
+      margin: 0px auto;
+      float: none;
+      text-align: left; }
+      .sec3 .aboutcompany .el8 p.txt8 {
+        padding-top: 279px; }
+  .sec4 .yslygi {
+    text-align: center; }
+    .sec4 .yslygi .bl1 {
+      width: 360px;
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl2 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl3 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl4 {
+      clear: none;
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl5 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl6 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl7 {
+      clear: none;
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl8 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+    .sec4 .yslygi .bl9 {
+      margin: 20px 20px 20px;
+      float: none;
+      display: inline-block; }
+  .sec5 {
+    text-align: center; }
+    .sec5 .left {
+      float: none;
+      display: inline-block;
+      width: 332px; }
+      .sec5 .left .ico1 {
+        background-size: auto;
+        width: 161px;
+        height: 178px; }
+      .sec5 .left .ico2 {
+        background-size: auto;
+        width: 161px;
+        height: 178px; }
+      .sec5 .left .ico3 {
+        background-size: auto;
+        width: 161px;
+        height: 178px; }
+      .sec5 .left .ico4 {
+        background-size: auto;
+        width: 161px;
+        height: 178px; }
+    .sec5 .right {
+      width: 323px;
+      float: none;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 0;
+      text-align: left; }
+      .sec5 .right .zakazchik {
+        font-size: 17px;
+        padding-bottom: 10px; }
+        .sec5 .right .zakazchik span.zakaz {
+          font-size: 14px; }
+      .sec5 .right .mesto {
+        font-size: 17px;
+        width: 390px;
+        padding-bottom: 13px; }
+        .sec5 .right .mesto span.mest {
+          font-size: 14px; }
+      .sec5 .right .obemm {
+        font-size: 17px;
+        padding-bottom: 14px; }
+        .sec5 .right .obemm span.obm {
+          font-size: 14px; }
+      .sec5 .right .zadacha {
+        font-size: 17px;
+        width: 388px; }
+        .sec5 .right .zadacha span.quest {
+          font-size: 14px; }
+  .sec6 form.questfrom {
+    margin: 0 auto;
+    display: block;
+    text-align: center; }
+    .sec6 form.questfrom input {
+      width: 212px;
+      height: 51px; }
+    .sec6 form.questfrom button.callback {
+      width: 252px;
+      height: 59px;
+      line-height: 59px;
+      margin-left: 0;
+      margin: 10px auto;
+      text-align: center; }
+  .sec7 .garantija {
+    margin-top: 0px;
+    height: initial;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    float: none; }
+    .sec7 .garantija .gleft {
+      margin-left: 0px;
+      background-position: center;
+      background-size: 260px;
+      width: 100%;
+      height: 300px; }
+    .sec7 .garantija .gright {
+      width: 100%;
+      margin-top: 0;
+      text-align: left;
+      padding-left: 30px; }
+      .sec7 .garantija .gright p.exp {
+        font-size: 25px; }
+      .sec7 .garantija .gright p.inf1 {
+        font-size: 16px;
+        padding-right: 30px; }
+  .sec7 .device {
+    margin-top: 0px;
+    height: 310px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    float: none; }
+    .sec7 .device .leftdevice {
+      width: 100%;
+      margin-top: 0;
+      text-align: left;
+      height: 100%;
+      display: inline-block;
+      float: none;
+      padding-left: 0;
+      margin-bottom: 20px; }
+      .sec7 .device .leftdevice p.pokrutie {
+        font-size: 25px; }
+      .sec7 .device .leftdevice .inf2 {
+        font-size: 16px; }
+    .sec7 .device .rightdevice {
+      width: 279px;
+      margin-top: 0;
+      margin: 0 auto;
+      text-align: center;
+      float: none;
+      display: inline-block;
+      background-position: 37px 16px;
+      height: 300px; }
+  .sec7 .control {
+    margin-top: 0px;
+    height: 310px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    float: none; }
+    .sec7 .control .leftcontrol {
+      background-size: 250px;
+      width: 251px;
+      height: 251px;
+      display: inline-block;
+      float: none;
+      margin-left: 0;
+      background-position: -24px 22px; }
+    .sec7 .control .rightcontrol {
+      width: 470px;
+      margin-top: 0px;
+      display: inline-block;
+      float: none;
+      text-align: left;
+      margin-left: 0px;
+      height: 199px; }
+      .sec7 .control .rightcontrol p.kachestvo {
+        font-size: 25px; }
+      .sec7 .control .rightcontrol p.inf3 {
+        font-size: 16px; }
+  .sec8 form.questfrom {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%; }
+    .sec8 form.questfrom input {
+      width: 262px;
+      height: 51px;
+      display: block;
+      margin: 10px auto; }
+    .sec8 form.questfrom button.callback {
+      text-align: center;
+      margin: 0px auto;
+      width: 262px;
+      height: 59px;
+      line-height: 59px; }
+  .sec9 {
+    margin: 0 auto;
+    text-align: center; }
+    .sec9 h3 {
+      font-size: 35px; }
+    .sec9 .tender1 {
+      display: inline-block;
+      margin: 0 auto;
+      text-align: center;
+      background-size: 390px;
+      background-position: -55px -4px;
+      width: 286px;
+      height: 393px;
+      float: none; }
+    .sec9 .tender2 {
+      display: inline-block;
+      background-size: 390px;
+      background-position: -55px -4px;
+      margin: 0 15px;
+      text-align: center;
+      float: none;
+      width: 286px;
+      height: 393px; }
+    .sec9 .tender3 {
+      display: inline-block;
+      background-size: 390px;
+      width: 286px;
+      height: 369px;
+      background-position: -55px -27px;
+      float: none;
+      margin: 0 auto;
+      text-align: center; }
+  .sec10 .otzleft {
+    margin-top: 0px;
+    background-size: 300px;
+    background-position: center;
+    width: 300px;
+    height: 275px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    float: none;
+    margin-bottom: 20px; }
+  .sec10 .otzright {
+    width: 430px;
+    height: initial; }
+    .sec10 .otzright p.gazprom {
+      font-size: 20px;
+      padding-bottom: 4px;
+      line-height: 23px; }
+    .sec10 .otzright p.inf4 {
+      padding-bottom: 23px;
+      font-size: 15px; }
+      .sec10 .otzright p.inf4 br {
+        display: none; }
+    .sec10 .otzright p.nameing {
+      font-size: 17px; }
+  .sec11 .shema {
+    padding-top: 35px; }
+    .sec11 .shema .step1 {
+      display: inline-block;
+      float: none;
+      font-size: 35px;
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px; }
+    .sec11 .shema .step2 {
+      display: block;
+      width: 225px;
+      background-position: top center;
+      margin-left: 0;
+      float: none;
+      margin: 0 auto; }
+      .sec11 .shema .step2 p.stp1 {
+        font-size: 17px; }
+    .sec11 .shema .step3 {
+      display: block;
+      width: 225px;
+      background-position: top center;
+      margin-left: 0;
+      float: none;
+      margin: 0 auto; }
+      .sec11 .shema .step3 p.stp2 {
+        font-size: 17px; }
+    .sec11 .shema .step4 {
+      display: block;
+      width: 225px;
+      background-position: top center;
+      margin-left: 0;
+      float: none;
+      margin: 0 auto; }
+      .sec11 .shema .step4 p.stp3 {
+        font-size: 17px; }
+  .sec12 .adress {
+    margin-left: -227px; }
+  .sec13 h3 {
+    padding-bottom: 32px;
+    font-size: 25px;
+    line-height: 35px; }
+  .sec13 form.questfrom {
+    text-align: center;
+    margin: 0 auto; }
+    .sec13 form.questfrom input {
+      width: 272px;
+      height: 51px;
+      display: block;
+      float: none;
+      margin: 10px auto; }
+    .sec13 form.questfrom button.callback {
+      width: 272px;
+      height: 59px;
+      line-height: 59px;
+      float: none;
+      margin: 0 auto; } }
+
+@media only screen and (max-width: 520px) {
+  .section > div,
+  .head > div,
+  header > div,
+  section > div,
+  footer > div {
+    max-width: 320px; }
+  .sec1 .left {
+    width: 100%;
+    height: initial;
+    background-image: url(../img/bg_sec1.jpg); }
+    .sec1 .left .svel {
+      margin-bottom: 76px; }
+    .sec1 .left:before {
+      margin-left: 30px; }
+    .sec1 .left p.maintext {
+      font-size: 25px;
+      text-align: left;
+      padding-left: 50px;
+      line-height: 37px; }
+      .sec1 .left p.maintext span {
+        font-size: 25px; }
+    .sec1 .left ul {
+      padding-left: 50px;
+      padding-bottom: 30px; }
+      .sec1 .left ul li {
+        font-size: 14px; }
+  .sec1 .mouse {
+    display: none; }
+  .sec1 .right {
+    padding-left: 0px;
+    text-align: center;
+    width: 100%; }
+    .sec1 .right .number {
+      background-position: 40px 8px;
+      margin-bottom: 50px;
+      margin: 40px auto;
+      text-align: center;
+      font-size: 26px; }
+    .sec1 .right p.frst {
+      font-size: 23px;
+      text-align: center; }
+      .sec1 .right p.frst:after {
+        right: -76px;
+        top: 129px; }
+    .sec1 .right p.form {
+      text-align: center;
+      font-size: 16px;
+      margin: 0 auto;
+      width: 100%;
+      float: none; }
+      .sec1 .right p.form br {
+        display: none; }
+    .sec1 .right input {
+      width: 232px;
+      height: 51px; }
+    .sec1 .right button.callback {
+      width: 232px;
+      height: 61px;
+      line-height: 61px;
+      font-size: 22px; }
+  .sec1 .bg_left {
+    display: none; }
+  .sec1 .bg_right {
+    display: none; }
+  .sec2 h2 {
+    font-size: 25px; }
+  .sec2 .clients {
+    width: 250px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+    display: block;
+    margin-bottom: 30px; }
+    .sec2 .clients .cl1 {
+      width: 100%;
+      background-position: center; }
+    .sec2 .clients .cl2 {
+      width: 100%;
+      background-position: center; }
+    .sec2 .clients .cl3 {
+      width: 100%;
+      background-position: center; }
+    .sec2 .clients .cl4 {
+      width: 100%;
+      background-position: center; }
+  .sec3 .aboutcompany {
+    text-align: center;
+    margin: 0 auto; }
+    .sec3 .aboutcompany .el1 {
+      margin: 10px auto;
+      height: initial; }
+      .sec3 .aboutcompany .el1 p.ocompany {
+        font-size: 35px; }
+      .sec3 .aboutcompany .el1 p.txt1 {
+        line-height: 20px; }
+    .sec3 .aboutcompany .el2 {
+      display: block;
+      margin: 0 auto;
+      height: initial; }
+      .sec3 .aboutcompany .el2 p.txt2 {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0; }
+    .sec3 .aboutcompany .el3 {
+      display: block;
+      margin: 0 auto;
+      height: initial; }
+      .sec3 .aboutcompany .el3 p.txt3 {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0; }
+    .sec3 .aboutcompany .el4 {
+      display: block;
+      margin: 0 auto;
+      height: initial; }
+      .sec3 .aboutcompany .el4 p.txt4 {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0; }
+    .sec3 .aboutcompany .el5 {
+      display: block;
+      margin: 0 auto;
+      height: initial; }
+      .sec3 .aboutcompany .el5 p.txt5 {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0; }
+    .sec3 .aboutcompany .el6 {
+      display: block;
+      margin: 0 auto;
+      height: initial; }
+      .sec3 .aboutcompany .el6 p.txt6 {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0; }
+    .sec3 .aboutcompany .el7 {
+      display: block;
+      margin: 0 auto;
+      height: initial;
+      background-position: center 10px; }
+      .sec3 .aboutcompany .el7 p.txt7 {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0; }
+    .sec3 .aboutcompany .el8 {
+      display: block;
+      margin: 0 auto;
+      height: initial; }
+      .sec3 .aboutcompany .el8 p.txt8 {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0; }
+  .sec3 button.start {
+    display: block;
+    margin: 0 auto 20px; }
+  .sec4 .yslygi {
+    text-align: center; }
+    .sec4 .yslygi .bl1 {
+      display: block;
+      width: 100%;
+      margin: 10px auto;
+      text-align: left; }
+    .sec4 .yslygi .bl2 {
+      display: block;
+      width: 100%;
+      margin: 10px auto;
+      float: none; }
+    .sec4 .yslygi .bl3 {
+      display: block;
+      width: 100%;
+      margin: 10px auto;
+      float: none; }
+    .sec4 .yslygi .bl4 {
+      display: block;
+      width: 100%;
+      margin: 10px auto;
+      float: none;
+      clear: none; }
+    .sec4 .yslygi .bl5 {
+      display: block;
+      width: 100%;
+      margin: 10px auto;
+      float: none;
+      clear: none; }
+    .sec4 .yslygi .bl6 {
+      display: block;
+      width: 100%;
+      margin: 10px auto;
+      float: none;
+      clear: none; }
+    .sec4 .yslygi .bl7 {
+      display: block;
+      width: 100%;
+      margin: 10px auto;
+      float: none;
+      clear: none; }
+    .sec4 .yslygi .bl8 {
+      display: block;
+      width: 100%;
+      margin: 10px auto;
+      float: none;
+      clear: none; }
+    .sec4 .yslygi .bl9 {
+      display: block;
+      width: 100%;
+      margin: 10 auto;
+      float: none;
+      clear: none; }
+  .sec5 {
+    text-align: center; }
+    .sec5 .left {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%; }
+      .sec5 .left .ico1 {
+        background-size: auto;
+        width: 100%;
+        float: none;
+        margin: 10px auto; }
+      .sec5 .left .ico2 {
+        background-size: auto;
+        width: 100%;
+        float: none;
+        margin: 10px auto; }
+      .sec5 .left .ico3 {
+        background-size: auto;
+        width: 100%;
+        float: none;
+        margin: 10px auto; }
+      .sec5 .left .ico4 {
+        background-size: auto;
+        width: 100%;
+        float: none;
+        margin: 10px auto; }
+    .sec5 .right {
+      width: 323px;
+      float: none;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 0;
+      text-align: left;
+      margin: 0 auto;
+      padding: 20px; }
+      .sec5 .right .zakazchik {
+        font-size: 17px;
+        padding-bottom: 10px; }
+        .sec5 .right .zakazchik span.zakaz {
+          font-size: 14px; }
+      .sec5 .right .mesto {
+        font-size: 17px;
+        width: 390px;
+        padding-bottom: 13px; }
+        .sec5 .right .mesto span.mest {
+          font-size: 14px; }
+      .sec5 .right .obemm {
+        font-size: 17px;
+        padding-bottom: 14px; }
+        .sec5 .right .obemm span.obm {
+          font-size: 14px; }
+      .sec5 .right .zadacha {
+        font-size: 17px;
+        width: 262px; }
+        .sec5 .right .zadacha span.quest {
+          font-size: 14px; }
+  .sec6 form.questfrom {
+    margin: 0 auto;
+    display: block;
+    text-align: center; }
+    .sec6 form.questfrom input {
+      width: 212px;
+      height: 51px;
+      margin: 10px auto; }
+    .sec6 form.questfrom button.callback {
+      width: 252px;
+      height: 59px;
+      line-height: 59px;
+      margin-left: 0;
+      margin: 10px auto;
+      text-align: center; }
+  .sec7 p.garant {
+    letter-spacing: -0.7px;
+    font-size: 14px; }
+  .sec7 .garantija {
+    margin-top: 0px;
+    height: initial;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    float: none; }
+    .sec7 .garantija .gleft {
+      margin-left: 0px;
+      background-position: center;
+      background-size: 200px;
+      width: 100%;
+      height: 300px; }
+    .sec7 .garantija .gright {
+      width: 100%;
+      margin-top: 0;
+      text-align: left;
+      padding-left: 15px; }
+      .sec7 .garantija .gright p.exp {
+        font-size: 23px;
+        padding-left: 15px; }
+      .sec7 .garantija .gright .line1 {
+        margin-left: 15px; }
+      .sec7 .garantija .gright p.inf1 {
+        font-size: 14px;
+        max-width: 270px;
+        padding-left: 15px; }
+  .sec7 .device {
+    margin-top: 0px;
+    height: 310px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    float: none; }
+    .sec7 .device .leftdevice {
+      width: 100%;
+      margin-top: 0;
+      text-align: left;
+      height: 100%;
+      display: inline-block;
+      float: none;
+      padding-left: 0;
+      margin-bottom: 20px; }
+      .sec7 .device .leftdevice p.pokrutie {
+        font-size: 23px;
+        padding-left: 15px; }
+      .sec7 .device .leftdevice .line2 {
+        margin-left: 15px; }
+      .sec7 .device .leftdevice .inf2 {
+        font-size: 14px;
+        max-width: 270px;
+        padding-left: 15px; }
+    .sec7 .device .rightdevice {
+      width: 279px;
+      margin-top: 0;
+      margin: 0 auto;
+      text-align: center;
+      float: none;
+      display: inline-block;
+      background-position: center;
+      height: 300px;
+      background-size: 170px; }
+  .sec7 .control {
+    margin-top: 0px;
+    height: 310px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    float: none; }
+    .sec7 .control .leftcontrol {
+      background-size: 200px;
+      width: 251px;
+      height: 251px;
+      display: block;
+      float: none;
+      background-position: center;
+      margin: 0 auto;
+      margin-left: 0; }
+    .sec7 .control .rightcontrol {
+      width: 470px;
+      margin-top: 0px;
+      display: inline-block;
+      float: none;
+      text-align: left;
+      margin-left: 0px;
+      height: 199px; }
+      .sec7 .control .rightcontrol p.kachestvo {
+        font-size: 23px;
+        padding-left: 30px; }
+      .sec7 .control .rightcontrol .line3 {
+        margin-left: 30px; }
+      .sec7 .control .rightcontrol p.inf3 {
+        font-size: 14px;
+        max-width: 270px;
+        padding-left: 30px; }
+  .sec8 form.questfrom {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%; }
+    .sec8 form.questfrom input {
+      width: 262px;
+      height: 51px;
+      display: block;
+      margin: 10px auto; }
+    .sec8 form.questfrom button.callback {
+      text-align: center;
+      margin: 0px auto;
+      width: 262px;
+      height: 59px;
+      line-height: 59px; }
+  .sec9 {
+    margin: 0 auto;
+    text-align: center; }
+    .sec9 h3 {
+      font-size: 35px; }
+    .sec9 .tender1 {
+      display: inline-block;
+      margin: 0 auto;
+      text-align: center;
+      background-size: 390px;
+      background-position: -55px -4px;
+      width: 286px;
+      height: 393px;
+      float: none; }
+    .sec9 .tender2 {
+      display: inline-block;
+      background-size: 390px;
+      background-position: -55px -4px;
+      margin: 0 15px;
+      text-align: center;
+      float: none;
+      width: 286px;
+      height: 393px; }
+    .sec9 .tender3 {
+      display: inline-block;
+      background-size: 390px;
+      width: 286px;
+      height: 369px;
+      background-position: -55px -27px;
+      float: none;
+      margin: 0 auto;
+      text-align: center; }
+  .sec10 .otzleft {
+    margin-top: 0px;
+    background-size: 260px;
+    background-position: center;
+    width: 300px;
+    height: 275px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    float: none;
+    margin-bottom: 20px; }
+  .sec10 .otzright {
+    width: 100%;
+    height: initial;
+    margin: 0 auto;
+    display: block;
+    float: none; }
+    .sec10 .otzright p.gazprom {
+      font-size: 20px;
+      padding-bottom: 4px;
+      line-height: 23px;
+      text-align: center; }
+    .sec10 .otzright p.inf4 {
+      padding-bottom: 23px;
+      font-size: 14px;
+      text-align: left;
+      padding-left: 20px; }
+      .sec10 .otzright p.inf4 br {
+        display: none; }
+    .sec10 .otzright p.nameing {
+      text-align: center; }
+  .sec11 .shema {
+    padding-top: 35px; }
+    .sec11 .shema .step1 {
+      display: inline-block;
+      float: none;
+      font-size: 35px;
+      margin-left: 0;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px; }
+    .sec11 .shema .step2 {
+      display: block;
+      width: 225px;
+      background-position: top center;
+      margin-left: 0;
+      float: none;
+      margin: 0 auto; }
+      .sec11 .shema .step2 p.stp1 {
+        font-size: 17px; }
+    .sec11 .shema .step3 {
+      display: block;
+      width: 225px;
+      background-position: top center;
+      margin-left: 0;
+      float: none;
+      margin: 0 auto; }
+      .sec11 .shema .step3 p.stp2 {
+        font-size: 17px; }
+    .sec11 .shema .step4 {
+      display: block;
+      width: 225px;
+      background-position: top center;
+      margin-left: 0;
+      float: none;
+      margin: 0 auto; }
+      .sec11 .shema .step4 p.stp3 {
+        font-size: 17px; }
+  .sec12 .adress {
+    margin-left: -138px; }
+  .sec13 h3 {
+    padding-bottom: 32px;
+    font-size: 19px;
+    line-height: 29px; }
+  .sec13 form.questfrom {
+    text-align: center;
+    margin: 0 auto; }
+    .sec13 form.questfrom input {
+      width: 272px;
+      height: 51px;
+      display: block;
+      float: none;
+      margin: 10px auto; }
+    .sec13 form.questfrom button.callback {
+      width: 272px;
+      height: 59px;
+      line-height: 59px;
+      float: none;
+      margin: 0 auto; } }
+
+/*# sourceMappingURL=style.css.map */
