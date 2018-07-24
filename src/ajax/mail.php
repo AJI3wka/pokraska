@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $phone = $_POST['phone'];
 
 $utm_source = $_POST['utm_source'];
-$utm_medium = $_POST['utm_medium'];
+$utm_medium = $_POST['utm_medium']; 
 $utm_campaign = $_POST['utm_campaign'];
 $utm_term = $_POST['utm_term'];
 $source_type = $_POST['source_type'];
@@ -26,7 +26,7 @@ $headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
-$to = "target@target.target";
+$to = "lexapryhoda@gmail.com";
 
 $message = "Форма: $frm\n\n";
 $message .= "Имя: $name\n";
@@ -46,8 +46,8 @@ $message .= "Гео-положение отправителя: $location\n\n";
 $message .= "Ссылка на сайт: $url\n";
 $message .= "Заголовок: $title\n\n";
 
-mail ($to,$subject,$message,$headers);
+mail ($to,$subject,$message,$headers); 
 
-$to = "tester@tester.tester";
+$to = "lexapryhoda@gmail.com";
 mail ($to,$subject,$message,$headers);
 ?>

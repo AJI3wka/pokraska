@@ -99,7 +99,7 @@ footer {
 .sec1 .left {
   float: left;
   height: 100%;
-  width: 750px;
+  width: 62%;
   padding-top: 30px; }
   .sec1 .left .svel {
     font-family: Akrobat;
@@ -154,7 +154,7 @@ footer {
 
 .sec1 .right {
   float: right;
-  width: 450px;
+  width: 33%;
   height: 100%;
   text-align: center; }
   .sec1 .right .number {
@@ -165,8 +165,10 @@ footer {
     font-family: Akrobat;
     color: #2c2c2c;
     background-image: url(../img/phone.png);
-    background-position: 262px 5px;
-    margin-bottom: 120px; }
+    background-position: left 5px;
+    margin-bottom: 120px;
+    float: right;
+    width: 170px; }
   .sec1 .right p.frst {
     color: #2c2c2c;
     font-size: 30px;
@@ -183,11 +185,19 @@ footer {
       right: -44px;
       top: 131px;
       z-index: -1; }
-  .sec1 .right p.form {
-    font-size: 16px;
+  .sec1 .right p.p_z {
+    font-size: 14px;
     color: #2c2c2c;
     line-height: 22px;
     font-family: MuseoSansCyrl; }
+  .sec1 .right .text {
+    color: red;
+    font-family: MuseoSansCyrl;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    padding-top: 10px;
+    margin-bottom: 12px; }
   .sec1 .right input {
     display: block;
     width: 221px;
@@ -196,11 +206,11 @@ footer {
     opacity: 0.3;
     margin-top: 34px;
     padding-left: 19px;
-    margin: 34px auto 0px; }
+    margin: 25px auto 0px; }
     .sec1 .right input:last-of-type {
       margin-top: 10px; }
   .sec1 .right button.callback {
-    width: 272px;
+    width: 222px;
     height: 69px;
     background-color: #0061fd;
     border: none;
@@ -921,9 +931,9 @@ footer {
     line-height: 25px;
     text-align: center;
     padding-bottom: 28px; }
-  .sec6 form.questfrom {
+  .sec6 .form {
     margin-left: 177px; }
-    .sec6 form.questfrom input {
+    .sec6 .form input {
       width: 272px;
       height: 61px;
       opacity: 0.3;
@@ -934,7 +944,7 @@ footer {
       padding-left: 19px;
       line-height: 61px;
       font-family: MuseoSansCyrl; }
-    .sec6 form.questfrom button.callback {
+    .sec6 .form button.callback {
       width: 272px;
       height: 69px;
       background-color: #0061fd;
@@ -1103,10 +1113,10 @@ footer {
     line-height: 25px;
     text-align: center;
     padding-bottom: 28px; }
-  .sec8 form.questfrom {
+  .sec8 .form {
     text-align: center;
     margin: 0 auto; }
-    .sec8 form.questfrom input {
+    .sec8 .form input {
       width: 272px;
       height: 61px;
       opacity: 0.3;
@@ -1117,7 +1127,7 @@ footer {
       padding-left: 19px;
       line-height: 61px;
       font-family: MuseoSansCyrl; }
-    .sec8 form.questfrom button.callback {
+    .sec8 .form button.callback {
       width: 272px;
       height: 69px;
       background-color: #0061fd;
@@ -1392,9 +1402,9 @@ footer {
     line-height: 25px;
     text-align: center;
     padding-bottom: 28px; }
-  .sec13 form.questfrom {
+  .sec13 .form {
     margin-left: 177px; }
-    .sec13 form.questfrom input {
+    .sec13 .form input {
       width: 272px;
       height: 61px;
       opacity: 0.3;
@@ -1405,7 +1415,7 @@ footer {
       padding-left: 19px;
       line-height: 61px;
       font-family: MuseoSansCyrl; }
-    .sec13 form.questfrom button.callback {
+    .sec13 .form button.callback {
       width: 272px;
       height: 69px;
       background-color: #0061fd;
@@ -1427,8 +1437,12 @@ footer {
   footer > div {
     max-width: 980px; }
   .sec1 .left {
-    width: 545px;
-    height: initial; }
+    width: 62%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: initial;
+    }
     .sec1 .left .svel {
       margin-bottom: 96px; }
     .sec1 .left p.maintext {
@@ -1438,11 +1452,11 @@ footer {
     .sec1 .left ul li {
       font-size: 18px; }
   .sec1 .right {
-    padding-left: 52px;
-    width: 410px;
-    text-align: center; }
-    .sec1 .right .number {
-      background-position: 181px 5px; }
+    width: 36%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    }
     .sec1 .right p.frst {
       font-size: 25px;
       text-align: center; }
@@ -1562,7 +1576,7 @@ footer {
       width: 538px; }
       .sec5 .right .zadacha span.quest {
         font-size: 14px; }
-  .sec6 form.questfrom {
+  .sec6 .form {
     margin: 0 auto;
     display: block;
     text-align: center; }
@@ -1593,7 +1607,7 @@ footer {
       font-size: 27px; }
     .sec7 .control .rightcontrol p.inf3 {
       font-size: 16px; }
-  .sec8 form.questfrom button.callback {
+  .sec8 .form button.callback {
     text-align: center;
     margin: 12px auto; }
   .sec9 {
@@ -1680,7 +1694,7 @@ footer {
     margin-left: -450px; }
   .sec13 h3 {
     padding-bottom: 32px; }
-  .sec13 form.questfrom {
+  .sec13 .form {
     text-align: center;
     margin: 0 auto; } }
 
@@ -1692,7 +1706,7 @@ footer {
   footer > div {
     max-width: 768px; }
   .sec1 .left {
-    width: 467px;
+    width: 61%;
     height: initial; }
     .sec1 .left .svel {
       margin-bottom: 96px; }
@@ -1705,10 +1719,9 @@ footer {
       font-size: 18px; }
   .sec1 .right {
     padding-left: 0px;
-    width: 283px;
-    text-align: center; }
+    text-align: center;
+    width: 31%; }
     .sec1 .right .number {
-      background-position: 97px 5px;
       margin-bottom: 111px; }
     .sec1 .right p.frst {
       font-size: 23px;
@@ -1896,14 +1909,14 @@ footer {
       width: 388px; }
       .sec5 .right .zadacha span.quest {
         font-size: 14px; }
-  .sec6 form.questfrom {
+  .sec6 .form {
     margin: 0 auto;
     display: block;
     text-align: center; }
-    .sec6 form.questfrom input {
+    .sec6 .form input {
       width: 212px;
       height: 51px; }
-    .sec6 form.questfrom button.callback {
+    .sec6 .form button.callback {
       width: 252px;
       height: 59px;
       line-height: 59px; }
@@ -1943,12 +1956,12 @@ footer {
       font-size: 25px; }
     .sec7 .control .rightcontrol p.inf3 {
       font-size: 16px; }
-  .sec8 form.questfrom input {
+  .sec8 .form input {
     width: 232px;
     height: 51px;
     margin-right: 3px;
     margin-left: 3px; }
-  .sec8 form.questfrom button.callback {
+  .sec8 .form button.callback {
     text-align: center;
     margin: 12px auto;
     width: 232px;
@@ -2046,13 +2059,13 @@ footer {
   .sec13 h3 {
     padding-bottom: 32px;
     font-size: 35px; }
-  .sec13 form.questfrom {
+  .sec13 .form {
     text-align: center;
     margin: 0 auto; }
-    .sec13 form.questfrom input {
+    .sec13 .form input {
       width: 222px;
       height: 51px; }
-    .sec13 form.questfrom button.callback {
+    .sec13 .form button.callback {
       width: 252px;
       height: 59px;
       line-height: 59px; } }
@@ -2069,7 +2082,8 @@ footer {
   .sec1 .left {
     width: 100%;
     height: initial;
-    background-image: url(../img/bg_sec1.jpg); }
+    background-image: url(../img/bg_sec1.jpg);
+    text-align: left; }
     .sec1 .left .svel {
       margin-bottom: 76px; }
     .sec1 .left:before {
@@ -2092,7 +2106,8 @@ footer {
     text-align: center;
     width: 100%; }
     .sec1 .right .number {
-      background-position: 139px 8px;
+      width: 230px;
+      background-position: left 8px;
       margin-bottom: 50px;
       margin: 40px auto;
       text-align: center;
@@ -2314,15 +2329,15 @@ footer {
         width: 388px; }
         .sec5 .right .zadacha span.quest {
           font-size: 14px; }
-  .sec6 form.questfrom {
+  .sec6 .form {
     margin: 0 auto;
     display: block;
     text-align: center; }
-    .sec6 form.questfrom input {
+    .sec6 .form input {
       width: 212px;
       height: 51px;
       margin: 0px 20px 10px; }
-    .sec6 form.questfrom button.callback {
+    .sec6 .form button.callback {
       width: 252px;
       height: 59px;
       line-height: 59px;
@@ -2409,16 +2424,16 @@ footer {
         font-size: 25px; }
       .sec7 .control .rightcontrol p.inf3 {
         font-size: 16px; }
-  .sec8 form.questfrom {
+  .sec8 .form {
     text-align: center;
     margin: 0 auto;
     width: 100%; }
-    .sec8 form.questfrom input {
+    .sec8 .form input {
       width: 262px;
       height: 51px;
       display: block;
       margin: 10px auto; }
-    .sec8 form.questfrom button.callback {
+    .sec8 .form button.callback {
       text-align: center;
       margin: 0px auto;
       width: 262px;
@@ -2526,16 +2541,16 @@ footer {
     padding-bottom: 32px;
     font-size: 25px;
     line-height: 35px; }
-  .sec13 form.questfrom {
+  .sec13 .form {
     text-align: center;
     margin: 0 auto; }
-    .sec13 form.questfrom input {
+    .sec13 .form input {
       width: 272px;
       height: 51px;
       display: block;
       float: none;
       margin: 10px auto; }
-    .sec13 form.questfrom button.callback {
+    .sec13 .form button.callback {
       width: 272px;
       height: 59px;
       line-height: 59px;
@@ -2576,7 +2591,6 @@ footer {
     text-align: center;
     width: 100%; }
     .sec1 .right .number {
-      background-position: 40px 8px;
       margin-bottom: 50px;
       margin: 40px auto;
       text-align: center;
@@ -2819,15 +2833,15 @@ footer {
         display: inline; }
         .sec5 .right .zadacha span.quest {
           font-size: 14px; }
-  .sec6 form.questfrom {
+  .sec6 .form {
     margin: 0 auto;
     display: block;
     text-align: center; }
-    .sec6 form.questfrom input {
+    .sec6 .form input {
       width: 252px;
       height: 51px;
       margin: 10px auto; }
-    .sec6 form.questfrom button.callback {
+    .sec6 .form button.callback {
       width: 252px;
       height: 59px;
       line-height: 59px;
@@ -2935,16 +2949,16 @@ footer {
         font-size: 14px;
         max-width: 270px;
         padding-left: 30px; }
-  .sec8 form.questfrom {
+  .sec8 .form {
     text-align: center;
     margin: 0 auto;
     width: 100%; }
-    .sec8 form.questfrom input {
+    .sec8 .form input {
       width: 262px;
       height: 51px;
       display: block;
       margin: 10px auto; }
-    .sec8 form.questfrom button.callback {
+    .sec8 .form button.callback {
       text-align: center;
       margin: 10px auto 50px;
       width: 262px;
@@ -3056,20 +3070,67 @@ footer {
     padding-bottom: 32px;
     font-size: 19px;
     line-height: 29px; }
-  .sec13 form.questfrom {
+  .sec13 .form {
     text-align: center;
     margin: 0 auto; }
-    .sec13 form.questfrom input {
+    .sec13 .form input {
       width: 272px;
       height: 51px;
       display: block;
       float: none;
       margin: 10px auto; }
-    .sec13 form.questfrom button.callback {
+    .sec13 .form button.callback {
       width: 272px;
       height: 59px;
       line-height: 59px;
       float: none;
-      margin: 10px auto; } }
+      margin: 10px auto; } 
+.i-pop{
+      padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    display:none;
+}
+.hidden-box{
+  display:none;
+}
+.arcticmodal-container_i2.pop_z{
+  width: 300px;
+  height: 340px;
+  background-color: white;
+  text-align: center;
+  margin:0 auto;
+  display: none; 
 
+}
+.arcticmodal-container_i2p.p_z {
+font-size: 14px;
+color: #2c2c2c;
+line-height: 22px;
+font-family: MuseoSansCyrl;
+padding-top: 30px;
+}
+.arcticmodal-container_i2.pop_z input { 
+display: block;
+width: 221px;
+height: 51px;
+border: 1px solid #2c2c2c;
+opacity: 0.3;
+margin-top: 34px;
+padding-left: 19px;
+margin: 25px auto 0px;
+&:last-of-type {
+    margin-top: 10px;
+}
+}
+.pop_z button.callback_pop {width: 222px;height: 69px;background-color: #0061fd;border: none;margin-top: 20px;font-family: Akrobat;font-size: 27px;line-height: 69px;color: white;text-transform: uppercase;font-weight: 600;display: block;margin: 20px auto;}
+.arcticmodal-container_i2.i-pop{
+
+      padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    display:none;
+}
 /*# sourceMappingURL=style.css.map */

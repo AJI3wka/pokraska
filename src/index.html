@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/libs/normalize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/scripts.css">
     <link rel="stylesheet" href="css/fonts.css">
     <meta name="viewport" content="width=1020">
 </head>
@@ -29,19 +31,22 @@
                     <li>Фиксированные низкие цены</li>
                     <li>Гарантия 10 лет</li>
                 </ul>
-                
+
             </div>
             <div class="right">
                 <div class="number">8 (800) 302-83-82</div>
                 <p class="frst">Вернём 10 % с первого заказа</p>
-                <p class="form">Оставьте заявку и получите расчёт
+                <p class="p_z">Оставьте заявку и получите расчёт
                     <br>на оказание услуг с учётом вычета</p>
-                <input type="text" placeholder="Ваше имя">
-                <input type="text" placeholder="Ваш номер телефона">
-                <button class="callback">Оставить заявку</button>
+                <form class="form" action="ajax/mail.php" method="post">
+                    <input type="text" name="name" class="input" placeholder="Ваше имя">
+                    <input type="text" name="phone" class="input" placeholder="Ваш номер телефона">
+                    <input  type="hidden" name="frmid" value="первая форма">
+                    <button class="callback">Оставить заявку</button>
+                </form>
             </div>
         </div>
-         <div class="bg_left"></div>
+        <div class="bg_left"></div>
         <div class="bg_right"></div>
 
     </section>
@@ -97,7 +102,7 @@
                         <br> pekaniska</p>
                 </div>
             </div>
-            <button class="start">Начать сотрудничество</button>
+            <button id="b_z" class="start">Начать сотрудничество</button>
         </div>
     </section>
     <section class="sec4">
@@ -114,45 +119,56 @@
                         <br> обработка металла</p>
                     <p class="price2">140 руб./м<span class="sub">2</span></p>
                     <p class="stxt2">Продлеваем эксплуатационные характеристики конструкций</p>
-                    <button class="zakaz">Заказать</button>
+                    <button id="b_z"class="zakaz">Заказать</button>
                 </div>
                 <div class="bl3">
-                    <p class="ys3">Покраска<br> металлоконструкций
+                    <p class="ys3">Покраска
+                        <br> металлоконструкций
                     </p>
-                    <p class="stxt3">Красим объекты любой<br> сложности и масштаба</p>
-                    <button class="zakaz">Заказать</button>
+                    <p class="stxt3">Красим объекты любой
+                        <br> сложности и масштаба</p>
+                    <button id="b_z" class="zakaz">Заказать</button>
                 </div>
                 <div class="bl4">
                     <p class="ys4">Нанесение огнезащиты</p>
                     <p class="price4">100 руб./м<span class="sub">2</span>
                     </p>
-                    <p class="stxt4">Выполняем работу согласно<br> техническому регламенту<br> пожарной безопасности</p>
-                    <button class="zakaz">Заказать</button>
+                    <p class="stxt4">Выполняем работу согласно
+                        <br> техническому регламенту
+                        <br> пожарной безопасности</p>
+                    <button id="b_z" class="zakaz">Заказать</button>
                 </div>
                 <div class="bl5">
                     <p class="ys5">Пескоструйная очистка</p>
                     <p class="price5">210 руб./м<span class="sub">2</span></p>
-                    <p class="stxt5">Расправляемся с самыми<br> застарелыми загрязнениями</p>
-                    <button class="zakaz">Заказать</button>
+                    <p class="stxt5">Расправляемся с самыми
+                        <br> застарелыми загрязнениями</p>
+                    <button id="b_z" class="zakaz">Заказать</button>
                 </div>
                 <div class="bl6">
                     <p class="ys6">Брендирование ёмкостей, зданий и фасадов</p>
-                    <p class="stxt6">Наносим логотипы любого<br> размера, в любых погодных и<br> промышленных условиях</p>
-                    <button class="zakaz">Заказать</button>
+                    <p class="stxt6">Наносим логотипы любого
+                        <br> размера, в любых погодных и
+                        <br> промышленных условиях</p>
+                    <button id="b_z" class="zakaz">Заказать</button>
                 </div>
                 <div class="bl7">
-                    <p class="ys7">Герметезация<br> межпанельных швов</p>
+                    <p class="ys7">Герметезация
+                        <br> межпанельных швов</p>
                     <p class="price7">300 руб./м<span class="sub">2</span>
                     </p>
-                    <p class="stxt7">Улучшаем теплоизоляцию и<br> устойчивость к внешнему воздействию</p>
-                    <button class="zakaz">Заказать</button>
+                    <p class="stxt7">Улучшаем теплоизоляцию и
+                        <br> устойчивость к внешнему воздействию</p>
+                    <button id="b_z" class="zakaz">Заказать</button>
                 </div>
                 <div class="bl8">
-                    <p class="ys8">Очистка резервуаров<br> от мазути и нефти</p>
+                    <p class="ys8">Очистка резервуаров
+                        <br> от мазути и нефти</p>
                     <p class="price8">500 руб./м<span class="sub">2</span>
                     </p>
-                    <p class="stxt8">Возвращаем очищенный продукт<br> в производственный цикл</p>
-                    <button class="zakaz">Заказать</button>
+                    <p class="stxt8">Возвращаем очищенный продукт
+                        <br> в производственный цикл</p>
+                    <button id="b_z" class="zakaz">Заказать</button>
                 </div>
                 <div class="bl9">
                     <p class="ys9">7</p>
@@ -172,35 +188,39 @@
                 <div class="ico3"></div>
                 <div class="ico4"></div>
             </div>
-            <div class="right"> 
+            <div class="right">
                 <div class="zakazchik">Заказчик:<span class="zakaz">Газпром трансгаз Екатеринбург</span></div>
                 <div class="mesto">место:<span class="mest">Станция сжиженного газа в Свердловской области</span></div>
-                <div class="obemm">объем:<span class="obm">2500 м2</span></div> 
-                <div class="zadacha">задача:<span class="quest">С помощью аппаратов сверхвысокого давления очистить все трубы и соединения, эстакады и мачты, содрать краску до металла. Нанести антикоррозионную защиту с гарантией на 5 лет. С какими проблемами столкнулись: Невозможности применить пескоструйную установку сухой очистки в связи с нормами пожарной безопасности, при очистки сухим песком есть вероятность образования искры, в последствии это могло привести к взрыву станции. Работу выполняла одна бригада 4 человека: Прораб, 3 маляра высотника</span></div> 
+                <div class="obemm">объем:<span class="obm">2500 м2</span></div>
+                <div class="zadacha">задача:<span class="quest">С помощью аппаратов сверхвысокого давления очистить все трубы и соединения, эстакады и мачты, содрать краску до металла. Нанести антикоррозионную защиту с гарантией на 5 лет. С какими проблемами столкнулись: Невозможности применить пескоструйную установку сухой очистки в связи с нормами пожарной безопасности, при очистки сухим песком есть вероятность образования искры, в последствии это могло привести к взрыву станции. Работу выполняла одна бригада 4 человека: Прораб, 3 маляра высотника</span></div>
             </div>
         </div>
-         <div class="slidcontrol">
-                <div class="dot active"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-            </div>
+        <div class="slidcontrol">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
     </section>
     <section class="sec6">
         <div>
+
             <h3>Есть задача для нас?</h3>
-            <p class="zajavka">Оставьте заявку и получите расчет<br> на оказание услуг с учетом вычета</p>
-            <form class="questfrom" action=""> 
-            <input type="text" placeholder="Ваше имя">
-            <input type="text" placeholder="Ваш номер телефона">
-            <button class="callback">Оставить заявку</button>
+            <p class="zajavka">Оставьте заявку и получите расчет
+                <br> на оказание услуг с учетом вычета</p>
+            <form class="form" action="ajax/mail.php" method="post">
+                <input type="text" name="name" class="input" placeholder="Ваше имя">
+                <input type="text" name="phone" class="input" placeholder="Ваш номер телефона">
+                <input  type="hidden" name="frmid" value="вторая форма">
+                <button class="callback">Оставить заявку</button>
             </form>
         </div>
     </section>
     <section class="sec7">
         <div>
             <h3>Гарантии низкой цены</h3>
-            <p class="garant">Без ущерба для высокого уровня исполнения:<br> от расчёта сметы до акта-приемки</p>
+            <p class="garant">Без ущерба для высокого уровня исполнения:
+                <br> от расчёта сметы до акта-приемки</p>
             <div class="garantija">
                 <div class="gleft"></div>
                 <div class="gright">
@@ -217,7 +237,7 @@
                     <div class="line2"></div>
                     <p class="inf2">В собственности имеем покрасочное, очистное и печатное оборудование. Никакого контрафакта и наценок с посредников – с запасом закупаем лакокрасочное покрытие у надёжного поставщика для бесперебойной работы на объекте.</p>
                 </div>
-                
+
             </div>
             <div class="control">
                 <div class="leftcontrol"></div>
@@ -226,7 +246,7 @@
                     <div class="line3"></div>
                     <p class="inf3">Мы – тотальные перфекционисты. Контролируем качество и количество используемых материалов во избежания удорожания сметы. Контролируем качество выполненной работы с помощью толщиномеров лакокрасочного покрытия – забудьте об отслоениях, непрокрасах и халтуре.
 
-</p>
+                    </p>
                 </div>
             </div>
         </div>
@@ -234,19 +254,20 @@
     <section class="sec8">
         <div>
             <h3>Бесплатная краска для первых 1 000 м<span class="sub">2</span></h3>
-            <p class="zajavka">Оставьте заявку, чтобы стать участником<br> специального предложения</p>
-            <form class="questfrom" action=""> 
-            <input type="text" placeholder="Ваше имя">
-            <input type="text" placeholder="Ваш номер телефона">
-            <input type="text" placeholder="Ваш E-mail">
-            <button class="callback">Стать учасником</button>
+            <p class="zajavka">Оставьте заявку, чтобы стать участником
+                <br> специального предложения</p>
+            <form class="form" action="ajax/mail.php" method="post">
+                <input type="text" name="name" class="input" placeholder="Ваше имя">
+                <input type="text" name="phone" class="input" placeholder="Ваш номер телефона">
+                <input type="text" name="email" class="input" placeholder="Ваш E-mail">
+                <button class="callback">Стать учасником</button>
             </form>
         </div>
     </section>
     <section class="sec9">
         <div class="bg_sert"></div>
         <div>
-            <h3>Сертификаты, допуски и сро</h3> 
+            <h3>Сертификаты, допуски и сро</h3>
             <div class="tender1"></div>
             <div class="tender2"></div>
             <div class="tender3"></div>
@@ -258,60 +279,97 @@
             <div class="otzleft"></div>
             <div class="otzright">
                 <p class="gazprom">Газпром трансгаз Екатеринбург</p>
-                <p class="inf4">Мы выражаем благодраность. С помощью аппаратов сверхвысокого давления очистить все трубы и соединения, эстакады и мачты, содрать краску до металла. Нанести антикоррозионную защиту с<br> гарантией на 5 лет. С какими проблемами столкнулись: Невозможности применить пескоструйную<br> установку сухой очистки в связи с нормами пожарной безопасности, при очистки сухим песком<br> есть вероятность образования искры, в последствии это могло привести к взрыву станции.Работу<br> выполняла одна бригада 4 человека: Прораб, 3 маляра высотника</p>
+                <p class="inf4">Мы выражаем благодраность. С помощью аппаратов сверхвысокого давления очистить все трубы и соединения, эстакады и мачты, содрать краску до металла. Нанести антикоррозионную защиту с
+                    <br> гарантией на 5 лет. С какими проблемами столкнулись: Невозможности применить пескоструйную
+                    <br> установку сухой очистки в связи с нормами пожарной безопасности, при очистки сухим песком
+                    <br> есть вероятность образования искры, в последствии это могло привести к взрыву станции.Работу
+                    <br> выполняла одна бригада 4 человека: Прораб, 3 маляра высотника</p>
                 <p class="nameing">Имя человека и текст, инженер усправляющий</p>
             </div>
         </div>
-            <div class="slidcontrol">
-                <div class="dot active"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-            </div>
+        <div class="slidcontrol">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
     </section>
     <section class="sec11">
         <div>
             <div class="shema">
                 <div class="step1">Схема работы</div>
                 <div class="step2">
-                    <p class="stp1">Вы отправляете заявку<br>менеджеру</p>
+                    <p class="stp1">Вы отправляете заявку
+                        <br>менеджеру</p>
                     <button class="callback">Оставить заявку</button>
                 </div>
                 <div class="step3">
-                      <p class="stp2">Бесплатно подбираем материалы и составляем фиксированную смету без дальнейших удорожаний</p>
+                    <p class="stp2">Бесплатно подбираем материалы и составляем фиксированную смету без дальнейших удорожаний</p>
                 </div>
                 <div class="step4">
-                      <p class="stp3">Приступаем к<br>работе и выполняем<br> её в короткие сроки</p>
+                    <p class="stp3">Приступаем к
+                        <br>работе и выполняем
+                        <br> её в короткие сроки</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="sec12">
         <div class="map"></div>
-            <div class="adress">
-                <div class="phone">
-                    <p class="ph">Единый телефон</p>
-                    <p class="nmr">8 800 302 83 82</p>
-                </div>
-                <div class="line_adr"></div>
-                <div class="adr">
-                    Москва, <br>Николая дмитриева 19
-                </div>
+        <div class="adress">
+            <div class="phone">
+                <p class="ph">Единый телефон</p>
+                <p class="nmr">8 800 302 83 82</p>
             </div>
+            <div class="line_adr"></div>
+            <div class="adr">
+                Москва,
+                <br>Николая дмитриева 19
+            </div>
+        </div>
 
-       
     </section>
     <section class="sec13">
         <div>
             <h3>Подписывайтесь на нашу рассылку<br> без спама и получайте 5 % скидку на услуги</h3>
-            <form class="questfrom" action=""> 
-            <input type="text" placeholder="Ваше имя">
-            <input type="text" placeholder="Ваш E-mail">
-            <button class="callback">Стать участником</button>
+            <form class="form" action="ajax/mail.php" method="post">
+                <input type="text" name="name" class="input" placeholder="Ваше имя">
+                <input type="text" name="phone" class="input" placeholder="Ваш номер телефона">
+                <input type="hidden" name="frmid" value="четвертая форма">
+                <button class="callback">Стать участником</button>
             </form>
         </div>
     </section>
+
+                <div class="hidden-box">
+                    <div id="form-error-pop" class="i-pop">
+                        <div class="close"></div>
+                        <div id="form-error-text"></div>
+                    </div>
+                    <div id="okgo"" class="i-pop">
+                        <div class="close"></div>
+                        Спасибо за заявку! 
+                    </div>
+                </div>
+
+
+                    <div id="#okgo" class="pop_z">
+                    <p class="p_z">Оставьте заявку и получите расчёт
+                    <br>на оказание услуг с учётом вычета</p>
+                <form class="form" action="ajax/mail.php" method="post">
+                    <input type="text" name="name" class="input" placeholder="Ваше имя">
+                    <input type="text" name="phone" class="input" placeholder="Ваш номер телефона">
+                    <input  type="hidden" name="frmid" value="первая форма">
+                    <button class="callback_pop">Оставить заявку</button> 
+                </form> 
+            </div>
+              
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/libs/jquery.arcticmodal.min.js"></script>
+    <script src="js/libs/jquery.maskedinput.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
- 

@@ -127,7 +127,7 @@ footer {
     .left {
         float: left;
         height: 100%;
-        width: 750px;
+            width: 62%;
         padding-top: 30px;
         .svel {
             font-family: Akrobat;
@@ -189,19 +189,21 @@ footer {
     }
     .right {
         float: right;
-        width: 450px;
+        width: 33%;
         height: 100%;
         text-align: center;
         .number {
-            margin-top: 31px;
-            text-align: right;
-            margin-right: 10px;
-            font-size: 22px;
-            font-family: Akrobat;
-            color: #2c2c2c;
-            background-image: url(../img/phone.png);
-            background-position: 262px 5px;
-            margin-bottom: 120px;
+                margin-top: 31px;
+                text-align: right;
+                margin-right: 10px;
+                font-size: 22px;
+                font-family: Akrobat;
+                color: #2c2c2c;
+                background-image: url(../img/phone.png);
+                background-position: left 5px;
+                margin-bottom: 120px;
+                float: right;
+                width: 170px;
         }
         p.frst {
             color: #2c2c2c;
@@ -221,12 +223,13 @@ footer {
                 z-index: -1;
             }
         }
-        p.form {
-            font-size: 16px;
+        p.p_z {
+            font-size: 14px;
             color: #2c2c2c;
             line-height: 22px;
             font-family: MuseoSansCyrl;
         }
+        
         input {
             display: block;
             width: 221px;
@@ -235,13 +238,13 @@ footer {
             opacity: 0.3;
             margin-top: 34px;
             padding-left: 19px;
-            margin: 34px auto 0px;
+            margin: 25px auto 0px;
             &:last-of-type {
                 margin-top: 10px;
             }
         }
         button.callback {
-            width: 272px;
+            width: 222px;
             height: 69px;
             background-color: #0061fd;
             border: none;
@@ -1063,7 +1066,7 @@ footer {
         text-align: center;
         padding-bottom: 28px;
     }
-    form.questfrom {
+   .form {
         margin-left: 177px;
         input {
             width: 272px;
@@ -1273,7 +1276,7 @@ footer {
         text-align: center;
         padding-bottom: 28px;
     }
-    form.questfrom {
+    .form {
         text-align: center;
         margin: 0 auto;
         input {
@@ -1606,7 +1609,7 @@ footer {
         text-align: center;
         padding-bottom: 28px;
     }
-    form.questfrom {
+    .form {
         margin-left: 177px;
         input {
             width: 272px;
@@ -1647,7 +1650,10 @@ footer {
     }
     .sec1 {
         .left {
-            width: 545px;
+                width: 62%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
             height: initial;
             .svel {
                 margin-bottom: 96px;
@@ -1670,11 +1676,11 @@ footer {
             &:after {}
         }
         .right {
-            padding-left: 52px;
-            width: 410px;
-            text-align: center;
+                    width: 36%;
+                display: block;
+                margin: 0 auto;
+                text-align: center;
             .number {
-                background-position: 181px 5px;
             }
             p.frst {
                 font-size: 25px;
@@ -1921,7 +1927,7 @@ footer {
     .sec6 {
         h3 {}
         p.zajavka {}
-        form.questfrom {
+        .form {
             margin: 0 auto;
             display: block;
             text-align: center;
@@ -1986,7 +1992,7 @@ footer {
             span.sub {}
         }
         p.zajavka {}
-        form.questfrom {
+        .form {
             input {}
             button.callback {
                 text-align: center;
@@ -2126,7 +2132,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             padding-bottom: 32px;
         }
         p.zajavka {}
-        form.questfrom {
+        .form {
             text-align: center;
             margin: 0 auto;
             input {}
@@ -2141,11 +2147,11 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
     header > div,
     section > div,
     footer > div {
-        max-width: 768px;
+        max-width: 768px; 
     }
     .sec1 {
         .left {
-            width: 467px;
+               width: 61%;
             height: initial;
             .svel {
                 margin-bottom: 96px;
@@ -2170,10 +2176,9 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
         }
         .right {
             padding-left: 0px;
-            width: 283px;
             text-align: center;
+                width: 31%;
             .number {
-                background-position: 97px 5px;
                 margin-bottom: 111px;
             }
             p.frst {
@@ -2485,7 +2490,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
     .sec6 {
         h3 {}
         p.zajavka {}
-        form.questfrom {
+        .form {
             margin: 0 auto;
             display: block;
             text-align: center;
@@ -2566,7 +2571,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             span.sub {}
         }
         p.zajavka {}
-        form.questfrom {
+        .form {
             input {
                 width: 232px;
                 height: 51px;
@@ -2721,7 +2726,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             font-size: 35px;
         }
         p.zajavka {}
-        form.questfrom {
+        .form {
             text-align: center;
             margin: 0 auto;
             input {
@@ -2753,6 +2758,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             width: 100%;
             height: initial;
             background-image: url(../img/bg_sec1.jpg);
+                text-align: left;
             .svel {
                 margin-bottom: 76px;
             }
@@ -2785,7 +2791,8 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             text-align: center;
             width: 100%;
             .number {
-                background-position: 139px 8px;
+                    width: 230px;
+    background-position: left 8px;
                 margin-bottom: 50px;
                 margin: 40px auto;
                 text-align: center;
@@ -3129,7 +3136,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
     .sec6 {
         h3 {}
         p.zajavka {}
-        form.questfrom {
+        .form {
             margin: 0 auto;
             display: block;
             text-align: center;
@@ -3255,7 +3262,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             span.sub {}
         }
         p.zajavka {}
-        form.questfrom {
+        .form {
             text-align: center;
             margin: 0 auto;
             width: 100%;
@@ -3423,7 +3430,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             line-height: 35px;
         }
         p.zajavka {}
-        form.questfrom {
+        .form {
             text-align: center;
             margin: 0 auto;
             input {
@@ -3491,7 +3498,6 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             text-align: center;
             width: 100%;
             .number {
-                background-position: 40px 8px;
                 margin-bottom: 50px;
                 margin: 40px auto;
                 text-align: center;
@@ -3856,7 +3862,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
     .sec6 {
         h3 {}
         p.zajavka {}
-        form.questfrom {
+        .form {
             margin: 0 auto;
             display: block;
             text-align: center;
@@ -4003,7 +4009,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             span.sub {}
         }
         p.zajavka {}
-        form.questfrom {
+        .form {
             text-align: center;
             margin: 0 auto;
             width: 100%;
@@ -4175,7 +4181,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             line-height: 29px;
         }
         p.zajavka {}
-        form.questfrom {
+        .form {
             text-align: center;
             margin: 0 auto;
             input {
@@ -4195,3 +4201,4 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
         }
     }
 }
+
