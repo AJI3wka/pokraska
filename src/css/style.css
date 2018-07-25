@@ -5,6 +5,17 @@
   background-position: center;
   background-repeat: no-repeat; }
 
+#maket {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 8000px;
+  background-image: url(../maket.jpg);
+  background-position: top center;
+  opacity: 0.5; }
+
 :after,
 :before {
   content: "";
@@ -58,6 +69,23 @@ input,
 textarea {
   outline: none; }
 
+input {
+  color: #040404 !important;
+  opacity: 1 !important;
+  border-color: rgba(44, 44, 44, 0.3) !important; }
+
+::-webkit-input-placeholder {
+  color: rgba(44, 44, 44, 0.3) !important; }
+
+::-moz-placeholder {
+  color: rgba(44, 44, 44, 0.3) !important; }
+
+:-moz-placeholder {
+  color: rgba(44, 44, 44, 0.3) !important; }
+
+:-ms-input-placeholder {
+  color: rgba(44, 44, 44, 0.3) !important; }
+
 section,
 header,
 footer {
@@ -100,7 +128,8 @@ footer {
   float: left;
   height: 100%;
   width: 62%;
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-bottom: 178px; }
   .sec1 .left .svel {
     font-family: Akrobat;
     margin-bottom: 156px;
@@ -190,14 +219,6 @@ footer {
     color: #2c2c2c;
     line-height: 22px;
     font-family: MuseoSansCyrl; }
-  .sec1 .right .text {
-    color: red;
-    font-family: MuseoSansCyrl;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 10px;
-    padding-top: 10px;
-    margin-bottom: 12px; }
   .sec1 .right input {
     display: block;
     width: 221px;
@@ -243,7 +264,7 @@ footer {
 
 .sec2 {
   padding-top: 79px;
-  padding-bottom: 50px; }
+  padding-bottom: 90px; }
   .sec2 h2 {
     font-size: 39px;
     text-transform: uppercase;
@@ -287,9 +308,10 @@ footer {
     padding-top: 52px;
     margin-bottom: 56px; }
     .sec3 .aboutcompany .el1 {
-      width: 248px;
+      width: 255px;
       float: left;
-      padding-top: 45px; }
+      padding-top: 45px;
+      margin-right: -7px; }
       .sec3 .aboutcompany .el1 p.ocompany {
         color: #353535;
         font-family: Akrobat;
@@ -346,7 +368,7 @@ footer {
         text-align: center;
         font-family: Akrobat;
         line-height: 25px;
-        padding-top: 192px; }
+        padding-top: 193px; }
     .sec3 .aboutcompany .el5 {
       width: 262px;
       float: left;
@@ -425,7 +447,7 @@ footer {
   background-color: #5898ff; }
   .sec4 .yslygi {
     padding-top: 52px;
-    margin-bottom: 40px; }
+    margin-bottom: 50px; }
     .sec4 .yslygi .bl1 {
       width: 409px;
       height: 271px;
@@ -773,7 +795,8 @@ footer {
         margin-top: -17px; }
 
 .sec5 {
-  padding-top: 38px; }
+  padding-top: 38px;
+  padding-bottom: 40px; }
   .sec5 h3 {
     color: #2c2c2c;
     font-family: Akrobat;
@@ -800,18 +823,6 @@ footer {
       background-position: center;
       float: left;
       position: relative; }
-      .sec5 .left .ico2 .search {
-        position: absolute;
-        background-image: url(../img/lypa.png);
-        width: 60px;
-        height: 60px;
-        background-color: #0000fe;
-        box-shadow: 0 0 32px rgba(0, 0, 254, 0.41);
-        border-radius: 100%;
-        top: 36%;
-        margin-left: -30px;
-        left: 50%;
-        cursor: pointer; }
     .sec5 .left .ico3 {
       width: 201px;
       height: 218px;
@@ -828,6 +839,25 @@ footer {
       float: left;
       margin-top: 10px;
       margin-left: 10px; }
+    .sec5 .left .ico1, .sec5 .left .ico2, .sec5 .left .ico3, .sec5 .left .ico4 {
+      position: relative;
+      cursor: pointer; }
+      .sec5 .left .ico1 .search, .sec5 .left .ico2 .search, .sec5 .left .ico3 .search, .sec5 .left .ico4 .search {
+        position: absolute;
+        background-image: url(../img/lypa.png);
+        width: 60px;
+        height: 60px;
+        background-color: #0000fe;
+        box-shadow: 0 0 32px rgba(0, 0, 254, 0.41);
+        border-radius: 100%;
+        top: 36%;
+        margin-left: -30px;
+        left: 50%;
+        cursor: pointer;
+        opacity: 0;
+        transition: all 0.25s; }
+      .sec5 .left .ico1:hover .search, .sec5 .left .ico2:hover .search, .sec5 .left .ico3:hover .search, .sec5 .left .ico4:hover .search {
+        opacity: 1; }
   .sec5 .right {
     float: right;
     width: 735px;
@@ -895,26 +925,30 @@ footer {
         line-height: 15px; }
   .sec5 .slidcontrol {
     margin: 40px auto 0;
-    width: 105px; }
+    width: 120px;
+    text-align: center; }
     .sec5 .slidcontrol .dot {
-      width: 13px;
-      height: 13px;
-      background-color: #0061fd;
-      opacity: 0.3;
-      border-radius: 100%;
       display: inline-block;
-      vertical-align: middle;
-      margin-right: 13px;
-      cursor: pointer; }
-      .sec5 .slidcontrol .dot:hover {
+      width: 26px;
+      height: 26px;
+      padding: 6px; }
+      .sec5 .slidcontrol .dot:after {
+        width: 13px;
+        height: 13px;
+        background-color: #0061fd;
+        opacity: 0.3;
+        display: block;
+        content: '';
+        border-radius: 100%;
+        vertical-align: middle;
+        cursor: pointer; }
+      .sec5 .slidcontrol .dot:hover:after, .sec5 .slidcontrol .dot.active:after {
         background-color: #0061fd;
         opacity: 1; }
-      .sec5 .slidcontrol .dot:last-of-type {
-        margin-right: 0; }
 
 .sec6 {
   padding-top: 42px;
-  margin-bottom: 30px; }
+  padding-bottom: 70px; }
   .sec6 h3 {
     color: #2c2c2c;
     letter-spacing: 0px;
@@ -961,7 +995,7 @@ footer {
 .sec7 {
   padding-top: 62px;
   background-color: #5898ff;
-  padding-bottom: 40px; }
+  padding-bottom: 10px; }
   .sec7 h3 {
     color: white;
     font-family: Akrobat;
@@ -980,14 +1014,15 @@ footer {
     letter-spacing: -0.3px; }
   .sec7 .garantija {
     margin-top: 5px;
-    height: 310px; }
+    height: 300px; }
     .sec7 .garantija .gleft {
       float: left;
       width: 320px;
-      height: 330px;
+      height: 350px;
       background-image: url(../img/kaska.png);
       background-position: -7px 18px;
-      margin-left: 120px; }
+      margin-left: 120px;
+      margin-bottom: -42px; }
     .sec7 .garantija .gright {
       float: right;
       width: 709px;
@@ -1047,11 +1082,12 @@ footer {
     .sec7 .device .rightdevice {
       float: right;
       width: 449px;
-      height: 400px;
+      height: 500px;
+      margin-bottom: -100px;
       background-image: url(../img/pulik.png);
       background-position: 37px 26px; }
   .sec7 .control {
-    height: 340px; }
+    height: 370px; }
     .sec7 .control .leftcontrol {
       float: left;
       width: 311px;
@@ -1062,7 +1098,6 @@ footer {
     .sec7 .control .rightcontrol {
       float: right;
       width: 709px;
-      height: 330px;
       margin-top: 86px; }
       .sec7 .control .rightcontrol p.kachestvo {
         color: white;
@@ -1089,7 +1124,7 @@ footer {
 
 .sec8 {
   padding-top: 54px;
-  margin-bottom: 30px; }
+  padding-bottom: 72px; }
   .sec8 h3 {
     color: #2c2c2c;
     letter-spacing: 0.2px;
@@ -1147,11 +1182,12 @@ footer {
     background: url(../img/bg_sert.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 463px;
     position: absolute;
     z-index: -2;
     max-width: 100%;
-    width: 100%; }
+    width: 100%;
+    height: 63%;
+    background-size: cover; }
   .sec9 h3 {
     color: white;
     font-family: Akrobat;
@@ -1441,8 +1477,7 @@ footer {
     display: block;
     margin: 0 auto;
     text-align: center;
-    height: initial;
-    }
+    height: initial; }
     .sec1 .left .svel {
       margin-bottom: 96px; }
     .sec1 .left p.maintext {
@@ -1455,8 +1490,7 @@ footer {
     width: 36%;
     display: block;
     margin: 0 auto;
-    text-align: center;
-    }
+    text-align: center; }
     .sec1 .right p.frst {
       font-size: 25px;
       text-align: center; }
@@ -1885,6 +1919,7 @@ footer {
   .sec5 .right {
     width: 363px;
     float: none;
+    padding-left: 20px;
     display: inline-block;
     vertical-align: top;
     padding-top: 0; }
@@ -1970,6 +2005,8 @@ footer {
   .sec9 {
     margin: 0 auto;
     text-align: center; }
+    .sec9 .bg_sert {
+      height: 100%; }
     .sec9 .tender1 {
       display: inline-block;
       margin: 0 auto;
@@ -2307,6 +2344,9 @@ footer {
       display: inline-block;
       vertical-align: top;
       padding-top: 0;
+      padding-left: 0;
+      width: initial;
+      margin-top: 20px;
       text-align: left; }
       .sec5 .right .zakazchik {
         font-size: 17px;
@@ -2342,7 +2382,7 @@ footer {
       height: 59px;
       line-height: 59px;
       margin-left: 0;
-      margin: 10px auto;
+      margin: 20px auto;
       text-align: center; }
   .sec7 .garantija {
     margin-top: 0px;
@@ -2472,32 +2512,41 @@ footer {
       float: none;
       margin: 25 auto;
       text-align: center; }
-  .sec10 .otzleft {
-    margin-top: 0px;
-    background-size: 300px;
-    background-position: center;
-    width: 300px;
-    height: 275px;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    float: none;
-    margin-bottom: 20px; }
-  .sec10 .otzright {
-    width: 430px;
-    height: initial; }
-    .sec10 .otzright p.gazprom {
-      font-size: 20px;
-      padding-bottom: 4px;
-      line-height: 23px;
-      text-align: center; }
-    .sec10 .otzright p.inf4 {
-      padding-bottom: 23px;
-      font-size: 15px; }
-      .sec10 .otzright p.inf4 br {
-        display: none; }
-    .sec10 .otzright p.nameing {
-      font-size: 17px; }
+  .sec10 {
+    text-align: center; }
+    .sec10 .otzleft {
+      margin-top: 0px;
+      background-size: 300px;
+      background-position: center;
+      width: 300px;
+      height: 275px;
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      float: none;
+      margin-bottom: 20px;
+      text-align: left; }
+    .sec10 .otzright {
+      width: initial;
+      height: initial;
+      margin-top: 20px;
+      float: none;
+      display: inline-block;
+      max-width: 450px;
+      text-align: left; }
+      .sec10 .otzright p.gazprom {
+        font-size: 20px;
+        padding-bottom: 4px;
+        line-height: 23px;
+        text-align: center; }
+      .sec10 .otzright p.inf4 {
+        margin-top: 20px;
+        padding-bottom: 23px;
+        font-size: 15px; }
+        .sec10 .otzright p.inf4 br {
+          display: none; }
+      .sec10 .otzright p.nameing {
+        font-size: 17px; }
   .sec11 .shema {
     padding-top: 35px; }
     .sec11 .shema .step1 {
@@ -3084,53 +3133,6 @@ footer {
       height: 59px;
       line-height: 59px;
       float: none;
-      margin: 10px auto; } 
-.i-pop{
-      padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    font-size: 20px;
-    display:none;
-}
-.hidden-box{
-  display:none;
-}
-.arcticmodal-container_i2.pop_z{
-  width: 300px;
-  height: 340px;
-  background-color: white;
-  text-align: center;
-  margin:0 auto;
-  display: none; 
+      margin: 10px auto; } }
 
-}
-.arcticmodal-container_i2p.p_z {
-font-size: 14px;
-color: #2c2c2c;
-line-height: 22px;
-font-family: MuseoSansCyrl;
-padding-top: 30px;
-}
-.arcticmodal-container_i2.pop_z input { 
-display: block;
-width: 221px;
-height: 51px;
-border: 1px solid #2c2c2c;
-opacity: 0.3;
-margin-top: 34px;
-padding-left: 19px;
-margin: 25px auto 0px;
-&:last-of-type {
-    margin-top: 10px;
-}
-}
-.pop_z button.callback_pop {width: 222px;height: 69px;background-color: #0061fd;border: none;margin-top: 20px;font-family: Akrobat;font-size: 27px;line-height: 69px;color: white;text-transform: uppercase;font-weight: 600;display: block;margin: 20px auto;}
-.arcticmodal-container_i2.i-pop{
-
-      padding: 20px;
-    background-color: white;
-    border-radius: 5px;
-    font-size: 20px;
-    display:none;
-}
 /*# sourceMappingURL=style.css.map */

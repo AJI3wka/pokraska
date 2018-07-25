@@ -8,6 +8,12 @@
             $('<input type="hidden" />').attr({name: 'location', class: 'location', value:ipg}).appendTo("form");
         });}});
     }
+
+
+  function validateEmail(email) {var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;return re.test(email);};
+
+
+
     $.get("http://ipinfo.io", function(response) {geo_url='http://ipgeobase.ru:7020/geo?ip='+response.ip; run_geo(geo_url);}, "jsonp");
     utm=[];$.each(["utm_source","utm_medium","utm_campaign","utm_term",'source_type','source','position_type','position','added','creative','matchtype'],function(i,v){$('<input type="hidden" />').attr({name: v, class: v, value: function(){if(getURLParameter(v) == undefined)return '-'; else return getURLParameter(v)}}).appendTo("form")});
     $('<input type="hidden" />').attr({name: 'url', value: document.location.href}).appendTo("form");
@@ -28,20 +34,30 @@ $(document).ready(function() {
     $('input[name="phone"]').blur(function() {if($(this).val().length != 18) {$(this).addClass('error-input');}});
   $('input[name="phone"]').focus(function() {$(this).removeClass('error-input');});
 
-
-  function validateEmail(email) {var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;return re.test(email);};
-
-
-
     $('input[name="email"]').blur(function() {if(!validateEmail($(this).val())) {$(this).addClass('error-input');}});
     $('input[name="email"]').focus(function() {$(this).removeClass('error-input');});
 
 
-$('.zakaz,.start,.shema').click(function(){
+	$('.zakaz,.start,.shema').click(function(){
         $('.pop_z').show('#okgo').arcticmodal();
     });
    
 
+   var slider1 = $('.slider_1').bxSlider({
+        infiniteLoop: true,
+        // nextSelector:'#sld2r',
+        // prevSelector:'#sld2l',
+        controls: false,
+        pager:true,
+        pagerCustom:'#slider_1_control',
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1
+    });
+
+  $('.fancy').fancybox({maxWidth:'90%',maxHeight:'90%',padding:0,helpers:{overlay:{locked:false},title:null},afterShow:function(){$('.fancybox-wrap').swipe({swipe:function(event,direction){if(direction==='left'){$.fancybox.prev(direction);}if(direction==='right'){$.fancybox.next(direction);}}});}});
 
 
 

@@ -34,6 +34,17 @@ $dark: #141414;
     background-position: center;
     background-repeat: no-repeat;
 }
+#maket{
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 8000px;
+    background-image: url(../maket.jpg);
+    background-position: top center;
+    opacity: 0.5;
+}
 
 :after,
 :before {
@@ -93,7 +104,15 @@ input,
 textarea {
     outline: none;
 }
-
+input{
+    color:#040404!important;
+    opacity:1!important;
+    border-color:rgba(44,44,44,0.3)!important;
+}
+::-webkit-input-placeholder {color:rgba(44,44,44,0.3)!important;}
+::-moz-placeholder          {color:rgba(44,44,44,0.3)!important;}
+:-moz-placeholder           {color:rgba(44,44,44,0.3)!important;}
+:-ms-input-placeholder      {color:rgba(44,44,44,0.3)!important;}
 section,
 header,
 footer {
@@ -129,6 +148,7 @@ footer {
         height: 100%;
             width: 62%;
         padding-top: 30px;
+        padding-bottom: 178px;
         .svel {
             font-family: Akrobat;
             margin-bottom: 156px;
@@ -280,7 +300,7 @@ footer {
 
 .sec2 {
     padding-top: 79px;
-    padding-bottom:50px;
+    padding-bottom:90px;
     h2 {
         font-size: 39px;
         text-transform: uppercase;
@@ -331,9 +351,10 @@ footer {
         padding-top: 52px;
         margin-bottom: 56px;
         .el1 {
-            width: 248px;
+            width: 255px;
             float: left;
             padding-top: 45px;
+            margin-right: -7px;
             p.ocompany {
                 color: #353535;
                 font-family: Akrobat;
@@ -397,7 +418,7 @@ footer {
                 text-align: center;
                 font-family: Akrobat;
                 line-height: 25px;
-                padding-top: 192px;
+                padding-top: 193px;
             }
         }
         .el5 {
@@ -489,7 +510,7 @@ footer {
     background-color: #5898ff;
     .yslygi {
         padding-top: 52px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         .bl1 {
             width: 409px;
             height: 271px;
@@ -886,6 +907,7 @@ footer {
 
 .sec5 {
     padding-top: 38px;
+    padding-bottom: 40px;
     h3 {
         color: #2c2c2c;
         font-family: Akrobat;
@@ -914,19 +936,6 @@ footer {
             background-position: center;
             float: left;
             position: relative;
-            .search {
-                position: absolute;
-                background-image: url(../img/lypa.png);
-                width: 60px;
-                height: 60px;
-                background-color: #0000fe;
-                box-shadow: 0 0 32px rgba(0, 0, 254, 0.41);
-                border-radius: 100%;
-                top: 36%;
-                margin-left: -30px;
-                left: 50%;
-                cursor: pointer;
-            }
         }
         .ico3 {
             width: 201px;
@@ -945,6 +954,31 @@ footer {
             float: left;
             margin-top: 10px;
             margin-left: 10px;
+        }
+        .ico1,.ico2,.ico3,.ico4{
+            position: relative;
+            cursor: pointer;
+
+            .search {
+                position: absolute;
+                background-image: url(../img/lypa.png);
+                width: 60px;
+                height: 60px;
+                background-color: #0000fe;
+                box-shadow: 0 0 32px rgba(0, 0, 254, 0.41);
+                border-radius: 100%;
+                top: 36%;
+                margin-left: -30px;
+                left: 50%;
+                cursor: pointer;
+                opacity:0;
+                transition:all 0.25s;
+            }
+            &:hover{
+                .search{
+                    opacity:1;
+                }
+            }
         }
     }
     .right {
@@ -1023,23 +1057,32 @@ footer {
     }
     .slidcontrol {
         margin: 40px auto 0;
-        width: 105px;
+        width: 120px;
+        text-align: center;
         .dot {
-            width: 13px;
-            height: 13px;
-            background-color: #0061fd;
-            opacity: 0.3;
-            border-radius: 100%;
-            display: inline-block;
-            vertical-align: middle;
-            margin-right: 13px;
-            cursor: pointer;
-            &:hover {
+                display: inline-block;
+                width: 26px;
+                height: 26px;
+                padding: 6px;
+            &:after{
+
+                width: 13px;
+                height: 13px;
                 background-color: #0061fd;
-                opacity: 1;
+                opacity: 0.3;
+                display: block;
+                content: '';
+                border-radius: 100%;
+                vertical-align: middle;
+                cursor: pointer;
+            }
+            &:hover,&.active {
+                &:after{
+                    background-color: #0061fd;
+                    opacity: 1;
+                }
             }
             &:last-of-type {
-                margin-right: 0;
             }
         }
     }
@@ -1047,7 +1090,7 @@ footer {
 
 .sec6 {
     padding-top: 42px;
-    margin-bottom: 30px;
+    padding-bottom: 70px;
     h3 {
         color: #2c2c2c;
         letter-spacing: 0px;
@@ -1100,7 +1143,7 @@ footer {
 .sec7 {
     padding-top: 62px;
     background-color: #5898ff;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     h3 {
         color: white;
         font-family: Akrobat;
@@ -1121,14 +1164,18 @@ footer {
     }
     .garantija {
         margin-top: 5px;
-        height: 310px;
+        height: 300px;
+
         .gleft {
             float: left;
             width: 320px;
-            height: 330px;
+            height: 350px;
             background-image: url(../img/kaska.png);
             background-position: -7px 18px;
             margin-left: 120px;
+
+            margin-bottom: -42px;
+
         }
         .gright {
             float: right;
@@ -1198,13 +1245,14 @@ footer {
         .rightdevice {
             float: right;
             width: 449px;
-            height: 400px;
+            height: 500px;
+            margin-bottom: -100px;
             background-image: url(../img/pulik.png);
             background-position: 37px 26px;
         }
     }
     .control {
-        height: 340px;
+        height: 370px;
         .leftcontrol {
             float: left;
             width: 311px;
@@ -1216,7 +1264,6 @@ footer {
         .rightcontrol {
             float: right;
             width: 709px;
-            height: 330px;
             margin-top: 86px;
             p.kachestvo {
                 color: white;
@@ -1249,7 +1296,7 @@ footer {
 
 .sec8 {
     padding-top: 54px;
-    margin-bottom: 30px;
+    padding-bottom: 72px;
     h3 {
         color: #2c2c2c;
         letter-spacing: 0.2px;
@@ -1314,11 +1361,12 @@ footer {
         background: url(../img/bg_sert.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        height: 463px;
         position: absolute;
         z-index: -2;
         max-width: 100%;
         width: 100%;
+        height: 63%;
+        background-size: cover;
     }
     h3 {
         color: white;
@@ -2447,6 +2495,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
         .right {
             width: 363px;
             float: none;
+            padding-left: 20px;
             display: inline-block;
             vertical-align: top;
             padding-top: 0;
@@ -2590,7 +2639,9 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
     .sec9 {
         margin: 0 auto;
         text-align: center;
-        .bg_sert {}
+        .bg_sert {
+            height: 100%;
+        }
         h3 {}
         .tender1 {
             display: inline-block;
@@ -3095,6 +3146,9 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             display: inline-block;
             vertical-align: top;
             padding-top: 0;
+            padding-left: 0;
+            width:initial;
+            margin-top: 20px;
             text-align: left;
             .zakazchik {
                 font-size: 17px;
@@ -3150,7 +3204,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
                 height: 59px;
                 line-height: 59px;
                 margin-left: 0;
-                margin: 10px auto;
+                margin: 20px auto;
                 text-align: center;
             }
         }
@@ -3322,6 +3376,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
     }
     .sec10 {
         h3 {}
+        text-align: center;
         .otzleft {
             margin-top: 0px;
             background-size: 300px;
@@ -3333,10 +3388,16 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
             display: block;
             float: none;
             margin-bottom: 20px;
+            text-align: left;
         }
         .otzright {
-            width: 430px;
+            width: initial;
             height: initial;
+            margin-top: 20px;
+            float: none;
+            display: inline-block;
+            max-width: 450px;
+            text-align: left;
             p.gazprom {
                 font-size: 20px;
                 padding-bottom: 4px;
@@ -3344,6 +3405,7 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
                     text-align: center;
             }
             p.inf4 {
+                margin-top: 20px;
                 padding-bottom: 23px;
                 font-size: 15px;
                 br {
