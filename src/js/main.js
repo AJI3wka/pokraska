@@ -56,6 +56,33 @@ $(document).ready(function() {
         maxSlides: 1,
         moveSlides: 1
     });
+   var slider2 = $('.slider_2').bxSlider({
+        infiniteLoop: true,
+        // nextSelector:'#sld2r',
+        // prevSelector:'#sld2l',
+        controls: false, 
+        pager:true,
+        pagerCustom:'#slider_2_control',
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1
+    });
+   var slider3 = $('.slider_3').bxSlider({
+        infiniteLoop: true,
+        // nextSelector:'#sld2r',
+        // prevSelector:'#sld2l',
+        controls: true, 
+        pager:true,
+        pagerCustom:'#slider_3_control',
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1
+    });
+
 
   $('.fancy').fancybox({maxWidth:'90%',maxHeight:'90%',padding:0,helpers:{overlay:{locked:false},title:null},afterShow:function(){$('.fancybox-wrap').swipe({swipe:function(event,direction){if(direction==='left'){$.fancybox.prev(direction);}if(direction==='right'){$.fancybox.next(direction);}}});}});
 
