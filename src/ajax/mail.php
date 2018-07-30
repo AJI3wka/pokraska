@@ -2,6 +2,7 @@
 $frm = $_POST['frmid'];
 $name = $_POST['name'];
 $phone = $_POST['phone'];
+$email = $_POST['email'];
 
 $utm_source = $_POST['utm_source'];
 $utm_medium = $_POST['utm_medium']; 
@@ -31,6 +32,9 @@ $to = "lexapryhoda@gmail.com";
 $message = "Форма: $frm\n\n";
 $message .= "Имя: $name\n";
 $message .= "Телефон: $phone\n\n";
+if(isset($email)){
+	$message .= "Email: $email\n\n";
+}
 $message .= "Источник: $utm_source\n";
 $message .= "Тип источника: $utm_medium\n";
 $message .= "Кампания: $utm_campaign\n";
@@ -48,6 +52,6 @@ $message .= "Заголовок: $title\n\n";
 
 mail ($to,$subject,$message,$headers); 
 
-$to = "lexapryhoda@gmail.com";
-mail ($to,$subject,$message,$headers);
+// $to = "lexapryhoda@gmail.com";
+// mail ($to,$subject,$message,$headers);
 ?>

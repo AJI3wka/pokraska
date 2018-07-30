@@ -24,6 +24,8 @@
 
 $(document).ready(function() {
 
+    $('.map').append('<iframe src="ajax/map.html"></iframe>');
+
     $ ('input[name="name"]').blur( function () { if ( $ ( this ). val (). length  <  2 ) { $ ( this ). addClass ( ' error-input ' );}});
     $ ('input[name="name"]').focus( function () { $ ( this ). removeClass ( ' error-input ' );});
 

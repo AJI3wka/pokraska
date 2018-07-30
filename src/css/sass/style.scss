@@ -1660,7 +1660,7 @@ footer {
 }
 
 .sec12 {
-            height: 516px;
+            height:480px;
     .map {
         max-width: 100%;
         width: 100%;
@@ -1671,6 +1671,14 @@ footer {
         left: 0;
         z-index: 1;
         top: 0;
+        iframe{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
     }
     .adress {
         width: 280px;
@@ -1722,8 +1730,8 @@ footer {
 }
 
 .sec13 {
-   padding-top: 14px;
-    height: 430px;
+   padding-top: 50px;
+   padding-bottom: 50px;
     h3 {
         color: #2c2c2c;
         font-family: Akrobat;
