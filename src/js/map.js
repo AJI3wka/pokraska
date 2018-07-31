@@ -183,7 +183,7 @@ function init() {
             var position = overlayProjection.fromLatLngToDivPixel(this.pos);
             var panes = this.getPanes();
             this.div.style.left = position.x + 'px';
-            this.div.style.top = position.y - 20 + 'px';
+            this.div.style.top = position.y - 23 + 'px';
         }
         
         //to use it

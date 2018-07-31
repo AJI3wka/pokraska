@@ -19,7 +19,7 @@ $dark: #141414;
     z-index: 2;
     background-size: cover!important;
     & > div {
-        max-width: 1200px;
+        max-width: 1200px; 
         position: relative;
         z-index: 2;
         height: 100%;
@@ -311,37 +311,50 @@ footer {
         margin-bottom: 38px;
     }
     .clients {
-        width: 780px;
-        height: 87px;
-        margin: 0 auto;
-        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+        height: 107px;
+    margin: 0 auto;
+    text-align: center;
         .cl1 {
-            width: 100px;
+              width: 220px;
             height: 100%;
             display: inline-block;
-            background-image: url(../img/cl_1.png);
-            background-position: 0px 28px;
+            background-image: url(../img/p_1.jpg);
+               background-position: center;
         }
         .cl2 {
-            width: 200px;
+                width: 100px;
             height: 100%;
             display: inline-block;
-            background-image: url(../img/cl_2.png);
-            background-position: 61px 29px;
+            background-image: url(../img/p_2.jpg);
+               background-position: center;
         }
         .cl3 {
-            width: 200px;
+            width: 240px;
             height: 100%;
             display: inline-block;
-            background-image: url(../img/cl_3.png);
-            background-position: 46px 37px;
+            background-image: url(../img/p_3.jpg);
+                background-position: center; 
         }
         .cl4 {
-            width: 200px;
+                 width: 180px;
             height: 100%;
             display: inline-block;
-            background-image: url(../img/cl_4.png);
-            background-position: 40px 25px;
+            background-image: url(../img/p_4.jpg);
+                background-position: center;
+        }
+        .cl5 {
+           width: 130px;
+            height: 100%;
+            display: inline-block;
+            background-image: url(../img/p_5.jpg);
+                background-position:center;
+        }
+        .cl6 {
+            width: 240px;
+            height: 100%;
+            display: inline-block;
+            background-image: url(../img/p_6.jpg);
+               background-position: center;
         }
     }
 }
@@ -4406,10 +4419,10 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
     background-color: white;
     padding: 30px;
     text-align: center;
-    width: 340px;
-    height: 340px;
+    border-radius:5px;
     display: block;
     margin: 0 auto;
+        font-size: 20px;
 }
 .hidden-box{
     display: none;
