@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Карта</title><script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;key=AIzaSyDJ-HDjSq2SeGl788I-5-7-EHAK29oUt2g"></script><script src="../js/map.js"></script><link rel="stylesheet" href="../css/fonts.css"></head><style>* {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map {
+            position: absolute!important;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1
+        }
+        .arrow_box{
+            position: absolute;
+        } 
+        .map_point{
+            background: blue;
+            width: 45px;
+            height: 45px;
+            background-color: #0061fd;
+            box-shadow: 0 4px 16px rgba(0, 97, 253, 0.2);
+            text-align: center;
+            line-height: 41px;
+            color: white;
+            border-radius:100%;
+            font-size: 16px;
+            font-family: "Akrobat",sans-serif;
+        }
+        .map_point.active{
+            background: white;
+            color:blue;
+        }
+        .map_id{
+            display: none;
+        }
+        .map_id.active{
+            display: block;
+        }
+    .adress {
+    width: 280px;
+    padding-bottom: 26px;
+    background: white;
+    padding-left: 29px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    margin-left: -590px;
+    top: 27px;
+    z-index: 2; }
+     .adress .phone {
+      padding-top: 23px;
+      margin-bottom: 14px; }
+       .adress .phone p.ph {
+        font-family: Akrobat;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #2c2c2c;
+        font-weight: 700; }
+       .adress .phone p.nmr {
+        font-family: Akrobat;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #0061fd;
+        font-weight: 900; }
+    .adress .line_adr {
+      width: 220px;
+      height: 1px;
+      opacity: 0.1;
+      background-color: #2c2c2c;
+      margin-bottom: 13px; }
+   .adress .adr {
+      font-family: Akrobat;
+      font-size: 20px;
+      line-height: 27px;
+      text-transform: uppercase;
+      color: #2c2c2c;
+      font-weight: 700; }
+
+
+@media only screen and (max-width: 1200px) {
+  
+   .adress {
+    margin-left: -450px; } }
+
+@media only screen and (max-width: 980px) {
+  
+   .adress {
+    margin-left: -357px; }}
+
+@media only screen and (max-width: 768px) {
+  
+   .adress {
+    margin-left: -227px; }}
+
+@media only screen and (max-width: 520px) {
+  
+   .adress {
+    margin-left: -138px; } }</style><body><div id="map"></div><div class="adress"><div class="phone"><p class="ph">Единый телефон</p><p class="nmr">8 800 302 83 82</p></div><div class="line_adr"></div><div class="adr"><div class="map_id" data-id="0">620078, г. Екатеринбург,<br>ул. Вишневая, 69С оф. 307</div><div class="map_id" data-id="1">195009, г. Санкт-Петербург,<br>ул. Минеральная, 13 литер Ч</div><div class="map_id active" data-id="2">125212, г. Москва,<br>Ленинградское ш, 47, стр.2, 3 этаж</div><div class="map_id" data-id="3">125212, г. Новороссийск,<br>Губерноского, 52, стр.2, 2 этаж</div><div class="map_id" data-id="4">628403, г. Сургут,<br>Маяковского, 21, литер А</div></div></div></body></html>

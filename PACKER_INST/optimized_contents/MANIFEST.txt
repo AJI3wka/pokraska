@@ -1,0 +1,29 @@
+This zip file contains optimized resources for http://webdone.info/customer_views/pokraska/. The optimized resources are listed below in the format of: 
+filename: url
+
+Note: We only include up to 10 MB of optimized contents. If the
+optimized contents of your page are larger than 10 MB, we list them in
+this file too, with 'NOT INCLUDED' to indicate those URLs require
+further optimization.
+
+image/p_1.jpg: http://webdone.info/customer_views/pokraska/img/p_1.jpg
+image/p_3.jpg: http://webdone.info/customer_views/pokraska/img/p_3.jpg
+image/ico1_s.jpg: http://webdone.info/customer_views/pokraska/img/ico1_s.jpg
+image/ico2_s.jpg: http://webdone.info/customer_views/pokraska/img/ico2_s.jpg
+image/ico3_s.jpg: http://webdone.info/customer_views/pokraska/img/ico3_s.jpg
+image/ico4_s.jpg: http://webdone.info/customer_views/pokraska/img/ico4_s.jpg
+image/ico1_1_1s.jpg: http://webdone.info/customer_views/pokraska/img/ico1_1_1s.jpg
+image/3_1s.jpg: http://webdone.info/customer_views/pokraska/img/3_1s.jpg
+image/3_2s.jpg: http://webdone.info/customer_views/pokraska/img/3_2s.jpg
+image/3_3s.jpg: http://webdone.info/customer_views/pokraska/img/3_3s.jpg
+image/3_4s.jpg: http://webdone.info/customer_views/pokraska/img/3_4s.jpg
+image/bg_sert.jpg: http://webdone.info/customer_views/pokraska/img/bg_sert.jpg
+image/el7.jpg: http://webdone.info/customer_views/pokraska/img/el7.jpg
+image/el6.jpg: http://webdone.info/customer_views/pokraska/img/el6.jpg
+image/el5.jpg: http://webdone.info/customer_views/pokraska/img/el5.jpg
+image/el4.jpg: http://webdone.info/customer_views/pokraska/img/el4.jpg
+image/el3.jpg: http://webdone.info/customer_views/pokraska/img/el3.jpg
+image/el2.jpg: http://webdone.info/customer_views/pokraska/img/el2.jpg
+image/el1.jpg: http://webdone.info/customer_views/pokraska/img/el1.jpg
+image/p_5.jpg: http://webdone.info/customer_views/pokraska/img/p_5.jpg
+image/p_4.jpg: http://webdone.info/customer_views/pokraska/img/p_4.jpg

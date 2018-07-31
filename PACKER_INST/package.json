@@ -1,0 +1,33 @@
+{
+  "name": "thefirst",
+  "version": "0.0.1",
+  "description": "TheFirst",
+  "devDependencies": {},
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-criticalcss": "^2.1.0",
+    "grunt-data-uri": "^0.3.0",
+    "grunt-guetzli": "^1.0.0",
+    "grunt-inline-imgsize": "0.0.1",
+    "grunt-insert": "^0.1.0",
+    "grunt-pagespeed": "^2.0.1",
+    "grunt-rebase": "^0.2.2",
+    "grunt-string-replace": "^1.3.1",
+    "grunt-strip-css-comments": "^1.3.0",
+    "grunt-stripcomments": "^0.7.2",
+    "load-grunt-config": "^0.19.2",
+    "ngrok": "^2.2.24",
+    "psi-ngrok": "^0.1.2",
+    "rebase": "^0.3.0",
+    "time-grunt": "^1.4.0"
+  }
+}
