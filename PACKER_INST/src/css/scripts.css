@@ -7,3 +7,28 @@
 #hidden-box{display:none;}
 .error-input{border: 1px solid red!important}
 
+
+
+@media only screen and (max-width: 1200px){
+
+.sec3 .aboutcompany .el4 p.txt4{
+	padding-top: 203px;
+	}
+	.sec1 .right p.p_z br{
+		display:none;
+	}
+}
+@media only screen and (max-width: 768px){
+	.sec1 .right .number{
+		    background-position: left 22px;
+	}
+	.sec1 .right p.p_z br{
+		display:block;
+	}
+}
+@media only screen and (max-width: 980px){
+	.sec2 .clients .cl2{
+		    width: 170px;
+		    background-position: -3px center;
+	}
+}

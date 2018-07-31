@@ -221,7 +221,7 @@ footer {
                 font-family: Akrobat;
                 color: #2c2c2c;
                 background-image: url(../img/phone.png);
-                background-position: left 5px;
+                background-position: left 20px;
                 margin-bottom: 120px;
                 float: right;
                 width: 178px;
@@ -322,7 +322,7 @@ footer {
                background-position: center;
         }
         .cl2 {
-                width: 100px;
+            width: 160px;
             height: 100px;
             display: inline-block;
             background-image: url(../img/p_2.jpg);
@@ -350,7 +350,7 @@ footer {
                 background-position:center;
         }
         .cl6 {
-            width: 240px;
+            width: 220px;
           height: 100px;
             display: inline-block;
             background-image: url(../img/p_6.jpg);
@@ -432,7 +432,10 @@ footer {
                 text-align: center;
                 font-family: Akrobat;
                 line-height: 25px;
-                    padding-top: 205px;
+                 padding-top: 206px;
+                    br{
+                        display:none;
+                    }
 
             }
         }
@@ -2446,7 +2449,9 @@ box-shadow: 0 20px 65px rgba(0, 0, 0, 0.1);
                 margin: 0px 30px;
                 text-align: center;
                 background-position: 69px 5px;
-                p.txt4 {}
+                p.txt4 {
+                        padding-top: 193px;
+                }
             }
             .el5 {
                 width: 300px;
